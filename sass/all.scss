@@ -15,22 +15,42 @@ html, body {
   font-size: 16px;
 }
 
+
+
+
 .page-loader {
   background-color: #f9efed;
   .loader-content {
+    text-align: center;
     h1 {
-      text-align: center;
       font: 3rem $font-LatoLI;
+      text-align: center;
+      -webkit-animation-name: fade-bottom;
+      animation-name: fade-bottom;
     }
     p {
       font: 1.5rem $font-LatoLI;
     }
+    img {
+      width: 55px;
+    }
   }
-
 }
 
 
+@keyframes fade-bottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
+
+/* =========FlexBox===========*/
 .flex-container {
   display: flex;
   flex-direction:  column;
@@ -38,7 +58,6 @@ html, body {
   align-items: center;
 }
 
-/* =========FlexBox===========*/
 .flex {
   display: -webkit-box;
   display: -moz-box;
