@@ -9,12 +9,60 @@
 @import "compass/typography";
 @import "compass/utilities";
 
-$base-border-radius: 5px;
-$base-color: #000055;
-$highlight-color: lighten($base-color,
-        50);
-div {
-  @include border-radius($base-border-radius);
-  color: $base-color;
+@import "variables";
+
+html, body {
+  font-size: 16px;
+}
+
+.page-loader {
+  background-color: #f9efed;
+  .loader-content {
+    h1 {
+      text-align: center;
+      font: 3rem $font-LatoLI;
+    }
+    p {
+      font: 1.5rem $font-LatoLI;
+    }
+  }
 
 }
+
+
+
+.flex-container {
+  display: flex;
+  flex-direction:  column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* =========FlexBox===========*/
+.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-column {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.flex-row {
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+
+.flex-center-all {
+  -webkit-justify-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+

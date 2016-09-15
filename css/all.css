@@ -67,10 +67,58 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 16, ../sass/all.scss */
-div {
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  color: #000055;
+/* line 14, ../sass/all.scss */
+html, body {
+  font-size: 16px;
+}
+
+/* line 18, ../sass/all.scss */
+.page-loader {
+  background-color: #f9efed;
+}
+/* line 21, ../sass/all.scss */
+.page-loader .loader-content h1 {
+  text-align: center;
+  font: 3rem "LatoLightItalic";
+}
+/* line 25, ../sass/all.scss */
+.page-loader .loader-content p {
+  font: 1.5rem "LatoLightItalic";
+}
+
+/* line 34, ../sass/all.scss */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* =========FlexBox===========*/
+/* line 42, ../sass/all.scss */
+.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 50, ../sass/all.scss */
+.flex-column {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+/* line 55, ../sass/all.scss */
+.flex-row {
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+/* line 61, ../sass/all.scss */
+.flex-center-all {
+  -webkit-justify-content: center;
+  justify-content: center;
+  align-items: center;
 }
