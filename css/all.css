@@ -72,42 +72,92 @@ html, body {
   font-size: 16px;
 }
 
-/* line 21, ../sass/all.scss */
+/* line 18, ../sass/all.scss */
+.padding {
+  padding: 0;
+}
+
+/* line 24, ../sass/all.scss */
 .page-loader {
   background-color: #f9efed;
 }
-/* line 23, ../sass/all.scss */
+/* line 26, ../sass/all.scss */
 .page-loader .loader-content {
   text-align: center;
 }
-/* line 25, ../sass/all.scss */
+/* line 28, ../sass/all.scss */
 .page-loader .loader-content h1 {
   font: 3rem "LatoLightItalic";
   text-align: center;
-  -webkit-animation-name: fade-bottom;
-  animation-name: fade-bottom;
+  animation: fade-bottom 1s;
 }
-/* line 31, ../sass/all.scss */
+/* line 33, ../sass/all.scss */
 .page-loader .loader-content p {
   font: 1.5rem "LatoLightItalic";
+  padding-bottom: 10px;
+  animation: simple-fade 2s 0.6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
-/* line 34, ../sass/all.scss */
+/* line 42, ../sass/all.scss */
 .page-loader .loader-content img {
   width: 55px;
+  animation: rotate 1.5s 1s;
 }
 
+/* line 50, ../sass/all.scss */
+.page-container .left-side {
+  animation: animation-slide-right 1.5s 2.5s;
+}
+/* line 52, ../sass/all.scss */
+.page-container .left-side img {
+  width: 100%;
+}
+
+/* =========Keyframes===========*/
 @keyframes fade-bottom {
   0% {
     opacity: 0;
-    transform: translateY(100%);
+    transform: translateY(50%);
   }
   100% {
     opacity: 1;
     transform: translateY(0);
   }
 }
+@keyframes simple-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes animation-slide-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(50%, 0, 0);
+    transform: translate3d(50%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
 /* =========FlexBox===========*/
-/* line 54, ../sass/all.scss */
+/* line 106, ../sass/all.scss */
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -115,7 +165,7 @@ html, body {
   align-items: center;
 }
 
-/* line 61, ../sass/all.scss */
+/* line 113, ../sass/all.scss */
 .flex {
   display: -webkit-box;
   display: -moz-box;
@@ -124,21 +174,38 @@ html, body {
   display: flex;
 }
 
-/* line 69, ../sass/all.scss */
+/* line 121, ../sass/all.scss */
 .flex-column {
   -webkit-flex-direction: column;
   flex-direction: column;
 }
 
-/* line 74, ../sass/all.scss */
+/* line 126, ../sass/all.scss */
 .flex-row {
   -webkit-flex-direction: row;
   flex-direction: row;
 }
 
-/* line 80, ../sass/all.scss */
+/* line 132, ../sass/all.scss */
 .flex-center-all {
   -webkit-justify-content: center;
   justify-content: center;
   align-items: center;
+}
+
+/*============ Clearfix=========== */
+/* line 140, ../sass/all.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 144, ../sass/all.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 148, ../sass/all.scss */
+.clrearfix {
+  zoom: 1;
 }

@@ -15,6 +15,9 @@ html, body {
   font-size: 16px;
 }
 
+.padding {
+  padding: 0;
+}
 
 
 
@@ -25,23 +28,38 @@ html, body {
     h1 {
       font: 3rem $font-LatoLI;
       text-align: center;
-      -webkit-animation-name: fade-bottom;
-      animation-name: fade-bottom;
+      animation: fade-bottom 1s;
     }
     p {
       font: 1.5rem $font-LatoLI;
+      padding-bottom: 10px;
+      animation: simple-fade 2s 0.6s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+
+
     }
     img {
       width: 55px;
+      animation: rotate 1.5s 1s;
     }
   }
 }
 
+.page-container {
+  .left-side {
+    animation: animation-slide-right 1.5s 2.5s;
+    img {
+      width: 100%;
+    }
+  }
+}
 
+/* =========Keyframes===========*/
 @keyframes fade-bottom {
   0% {
     opacity: 0;
-    transform: translateY(100%);
+    transform: translateY(50%);
   }
   100% {
     opacity: 1;
@@ -49,6 +67,40 @@ html, body {
   }
 }
 
+@keyframes simple-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+
+@keyframes animation-slide-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(50%, 0, 0);
+    transform: translate3d(50%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
 
 /* =========FlexBox===========*/
 .flex-container {
@@ -81,6 +133,20 @@ html, body {
   -webkit-justify-content: center;
   justify-content: center;
   align-items: center;
+}
+
+
+/*============ Clearfix=========== */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+.clrearfix{
+  zoom: 1;
 }
 
 
