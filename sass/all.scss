@@ -63,11 +63,18 @@ html, body {
       left: 0;
       right: 0;
       padding: 20px;
-      h3 {
-        z-index: 100;
-        position: absolute;
-        bottom: 11%;
+      img {
+        position: relative;
       }
+     /* h3 {
+        top: 75%;
+        color: rgba(255,255,255,0.6);
+        z-index: 1;
+        position: relative;
+        font: 2.8rem $font-LatoI;
+        text-align: center;
+
+      }*/
     }
     .slideshow {
       .carousel-inner {
