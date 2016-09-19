@@ -139,9 +139,10 @@ html, body {
 }
 /* line 66, ../sass/all.scss */
 .page-container .left-side .overlay-panel img {
-  position: relative;
+  position: absolute;
+  z-index: 1;
 }
-/* line 79, ../sass/all.scss */
+/* line 80, ../sass/all.scss */
 .page-container .left-side .slideshow {
   /* ul {
      position: relative;
@@ -163,8 +164,12 @@ html, body {
        }
        }*/
 }
-/* line 81, ../sass/all.scss */
-.page-container .left-side .slideshow .carousel-inner img {
+/* line 82, ../sass/all.scss */
+.page-container .left-side .slideshow .carousel-inner .item {
+  transition: 0.6s ease-in-out right;
+}
+/* line 86, ../sass/all.scss */
+.page-container .left-side .slideshow .carousel-inner .item img {
   object-fit: cover;
   object-position: inherit;
   height: 100vh !important;
@@ -172,10 +177,6 @@ html, body {
   animation: scale 25s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-}
-/* line 90, ../sass/all.scss */
-.page-container .left-side .slideshow .carousel-inner .item:first-child img {
-  animation-delay: 4s;
 }
 
 /* =========Keyframes===========*/
@@ -229,7 +230,7 @@ html, body {
   }
 }
 /* =========FlexBox===========*/
-/* line 178, ../sass/all.scss */
+/* line 185, ../sass/all.scss */
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -237,7 +238,7 @@ html, body {
   align-items: center;
 }
 
-/* line 185, ../sass/all.scss */
+/* line 192, ../sass/all.scss */
 .flex {
   display: -webkit-box;
   display: -moz-box;
@@ -246,19 +247,19 @@ html, body {
   display: flex;
 }
 
-/* line 193, ../sass/all.scss */
+/* line 200, ../sass/all.scss */
 .flex-column {
   -webkit-flex-direction: column;
   flex-direction: column;
 }
 
-/* line 198, ../sass/all.scss */
+/* line 205, ../sass/all.scss */
 .flex-row {
   -webkit-flex-direction: row;
   flex-direction: row;
 }
 
-/* line 204, ../sass/all.scss */
+/* line 211, ../sass/all.scss */
 .flex-center-all {
   -webkit-justify-content: center;
   justify-content: center;
@@ -266,18 +267,18 @@ html, body {
 }
 
 /*============ Clearfix=========== */
-/* line 212, ../sass/all.scss */
+/* line 219, ../sass/all.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 216, ../sass/all.scss */
+/* line 223, ../sass/all.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 220, ../sass/all.scss */
+/* line 227, ../sass/all.scss */
 .clrearfix {
   zoom: 1;
 }

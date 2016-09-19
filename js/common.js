@@ -27,7 +27,7 @@ $(document).ready(function() {
 */
     $('.carousel').carousel({
         interval: 12000,
-        pause: false
+        pause: 0
     });
 
 
