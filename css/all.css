@@ -80,18 +80,24 @@ html, body {
 /* line 24, ../sass/all.scss */
 .page-loader {
   background-color: #f9efed;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
 }
-/* line 26, ../sass/all.scss */
+/* line 29, ../sass/all.scss */
 .page-loader .loader-content {
   text-align: center;
+  top: 40%;
+  position: absolute;
+  width: 100%;
 }
-/* line 28, ../sass/all.scss */
+/* line 34, ../sass/all.scss */
 .page-loader .loader-content h1 {
   font: 3rem "LatoLightItalic";
   text-align: center;
   animation: fade-bottom 1s;
 }
-/* line 33, ../sass/all.scss */
+/* line 39, ../sass/all.scss */
 .page-loader .loader-content p {
   font: 1.5rem "LatoLightItalic";
   padding-bottom: 10px;
@@ -99,19 +105,70 @@ html, body {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-/* line 42, ../sass/all.scss */
+/* line 48, ../sass/all.scss */
 .page-loader .loader-content img {
   width: 55px;
   animation: rotate 1.5s 1s;
 }
 
-/* line 50, ../sass/all.scss */
+/* line 55, ../sass/all.scss */
+.page-container {
+  backface-visibility: hidden;
+}
+/* line 57, ../sass/all.scss */
 .page-container .left-side {
   animation: animation-slide-right 1.5s 2.5s;
 }
-/* line 52, ../sass/all.scss */
-.page-container .left-side img {
+/* line 59, ../sass/all.scss */
+.page-container .left-side .overlay-panel {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+}
+/* line 66, ../sass/all.scss */
+.page-container .left-side .overlay-panel h3 {
+  z-index: 100;
+  position: absolute;
+  bottom: 11%;
+}
+/* line 72, ../sass/all.scss */
+.page-container .left-side .slideshow {
+  /* ul {
+     position: relative;
+     z-index: 10;
+     width: 100%;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     overflow: hidden;
+     li {
+       height: 100vh !important;
+       .bg-inna {
+         background: url("../img/inna1_1.jpg");
+         height: 100vh;
+         background-size: cover;
+         animation: scale 10s 4s;
+         -webkit-animation-fill-mode: both;
+         animation-fill-mode: both;
+       }
+       }*/
+}
+/* line 74, ../sass/all.scss */
+.page-container .left-side .slideshow .carousel-inner img {
+  object-fit: cover;
+  object-position: inherit;
+  height: 100vh !important;
   width: 100%;
+  animation: scale 25s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+/* line 83, ../sass/all.scss */
+.page-container .left-side .slideshow .carousel-inner .item:first-child img {
+  animation-delay: 4s;
 }
 
 /* =========Keyframes===========*/
@@ -156,8 +213,16 @@ html, body {
     transform: translate3d(0, 0, 0);
   }
 }
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
 /* =========FlexBox===========*/
-/* line 106, ../sass/all.scss */
+/* line 171, ../sass/all.scss */
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -165,7 +230,7 @@ html, body {
   align-items: center;
 }
 
-/* line 113, ../sass/all.scss */
+/* line 178, ../sass/all.scss */
 .flex {
   display: -webkit-box;
   display: -moz-box;
@@ -174,19 +239,19 @@ html, body {
   display: flex;
 }
 
-/* line 121, ../sass/all.scss */
+/* line 186, ../sass/all.scss */
 .flex-column {
   -webkit-flex-direction: column;
   flex-direction: column;
 }
 
-/* line 126, ../sass/all.scss */
+/* line 191, ../sass/all.scss */
 .flex-row {
   -webkit-flex-direction: row;
   flex-direction: row;
 }
 
-/* line 132, ../sass/all.scss */
+/* line 197, ../sass/all.scss */
 .flex-center-all {
   -webkit-justify-content: center;
   justify-content: center;
@@ -194,18 +259,18 @@ html, body {
 }
 
 /*============ Clearfix=========== */
-/* line 140, ../sass/all.scss */
+/* line 205, ../sass/all.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 144, ../sass/all.scss */
+/* line 209, ../sass/all.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 148, ../sass/all.scss */
+/* line 213, ../sass/all.scss */
 .clrearfix {
   zoom: 1;
 }
