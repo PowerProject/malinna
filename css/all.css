@@ -167,8 +167,11 @@ html, body {
 /* line 82, ../sass/all.scss */
 .page-container .left-side .slideshow .carousel-inner .item {
   transition: 0.6s ease-in-out right;
+  animation: fade 3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
-/* line 86, ../sass/all.scss */
+/* line 88, ../sass/all.scss */
 .page-container .left-side .slideshow .carousel-inner .item img {
   object-fit: cover;
   object-position: inherit;
@@ -177,6 +180,10 @@ html, body {
   animation: scale 25s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+}
+/* line 98, ../sass/all.scss */
+.page-container .left-side .slideshow .carousel-inner .item.active {
+  overflow: hidden;
 }
 
 /* =========Keyframes===========*/
@@ -188,6 +195,14 @@ html, body {
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
   }
 }
 @keyframes simple-fade {
@@ -230,7 +245,7 @@ html, body {
   }
 }
 /* =========FlexBox===========*/
-/* line 185, ../sass/all.scss */
+/* line 200, ../sass/all.scss */
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -238,7 +253,7 @@ html, body {
   align-items: center;
 }
 
-/* line 192, ../sass/all.scss */
+/* line 207, ../sass/all.scss */
 .flex {
   display: -webkit-box;
   display: -moz-box;
@@ -247,19 +262,19 @@ html, body {
   display: flex;
 }
 
-/* line 200, ../sass/all.scss */
+/* line 215, ../sass/all.scss */
 .flex-column {
   -webkit-flex-direction: column;
   flex-direction: column;
 }
 
-/* line 205, ../sass/all.scss */
+/* line 220, ../sass/all.scss */
 .flex-row {
   -webkit-flex-direction: row;
   flex-direction: row;
 }
 
-/* line 211, ../sass/all.scss */
+/* line 226, ../sass/all.scss */
 .flex-center-all {
   -webkit-justify-content: center;
   justify-content: center;
@@ -267,18 +282,18 @@ html, body {
 }
 
 /*============ Clearfix=========== */
-/* line 219, ../sass/all.scss */
+/* line 234, ../sass/all.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 223, ../sass/all.scss */
+/* line 238, ../sass/all.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 227, ../sass/all.scss */
+/* line 242, ../sass/all.scss */
 .clrearfix {
   zoom: 1;
 }

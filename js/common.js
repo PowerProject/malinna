@@ -33,8 +33,8 @@ $(document).ready(function() {
 
     setTimeout(hidePreloader, 3000);
     settings();
- 
 
+    
 
 
     /*  =========== Resize ============*/
