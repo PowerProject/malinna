@@ -5,8 +5,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/all.css" afterPath="$PROJECT_DIR$/css/all.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common.js" afterPath="$PROJECT_DIR$/js/common.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/all.scss" afterPath="$PROJECT_DIR$/sass/all.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/variables.scss" afterPath="$PROJECT_DIR$/sass/variables.scss" />
     </list>
     <ignored path="malinna.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +32,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+                <state relative-caret-position="450">
+                  <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
@@ -46,8 +46,8 @@
           <file leaf-file-name="all.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sass/all.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="712">
-                  <caret line="143" column="16" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
+                <state relative-caret-position="780">
+                  <caret line="132" column="31" selection-start-line="132" selection-start-column="31" selection-end-line="132" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
@@ -56,11 +56,10 @@
           <file leaf-file-name="all.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/all.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4828">
-                  <caret line="299" column="0" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
+                <state relative-caret-position="858">
+                  <caret line="334" column="0" selection-start-line="334" selection-start-column="0" selection-end-line="334" selection-end-column="0" />
                   <folding>
-                    <marker date="1474351838173" expanded="true" signature="4556:4596" placeholder="{...}" />
-                    <marker date="1474351838173" expanded="true" signature="6908:6909" placeholder="{...}" />
+                    <marker date="1474361130584" expanded="true" signature="7995:7996" placeholder="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -69,8 +68,8 @@
           <file leaf-file-name="variables.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/variables.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+                <state relative-caret-position="187">
+                  <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -125,8 +124,8 @@
         <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/css/fonts.css" />
         <option value="$PROJECT_DIR$/sass/variables.css" />
-        <option value="$PROJECT_DIR$/sass/variables.scss" />
         <option value="$PROJECT_DIR$/js/common.js" />
+        <option value="$PROJECT_DIR$/sass/variables.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/all.scss" />
       </list>
@@ -318,7 +317,7 @@
       <workItem from="1474022685764" duration="6245000" />
       <workItem from="1474264776541" duration="9963000" />
       <workItem from="1474286372230" duration="4607000" />
-      <workItem from="1474350258572" duration="1645000" />
+      <workItem from="1474350258572" duration="5997000" />
     </task>
     <task id="LOCAL-00001" summary="add fonts, create file variables.css, add some img, write text to preloader">
       <created>1473945767323</created>
@@ -362,11 +361,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474292045961</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add  fade animation for sliders">
+      <created>1474351919705</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1474351919705</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34704000" />
+    <option name="totallyTimeSpent" value="39056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -409,7 +415,8 @@
     <MESSAGE value="add bootstrap slider" />
     <MESSAGE value="add logo" />
     <MESSAGE value="try to do fade animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="try to do fade animation" />
+    <MESSAGE value="add  fade animation for sliders" />
+    <option name="LAST_COMMIT_MESSAGE" value="add  fade animation for sliders" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -437,8 +444,7 @@
         <state relative-caret-position="4828">
           <caret line="284" column="0" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
           <folding>
-            <marker date="1474351838173" expanded="true" signature="4556:4596" placeholder="{...}" />
-            <marker date="1474351838173" expanded="true" signature="6908:6909" placeholder="{...}" />
+            <marker date="1474361130584" expanded="true" signature="7995:7996" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -488,8 +494,7 @@
         <state relative-caret-position="4692">
           <caret line="276" column="0" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
           <folding>
-            <marker date="1474351838173" expanded="true" signature="4556:4596" placeholder="{...}" />
-            <marker date="1474351838173" expanded="true" signature="6908:6909" placeholder="{...}" />
+            <marker date="1474361130584" expanded="true" signature="7995:7996" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -539,8 +544,7 @@
         <state relative-caret-position="3978">
           <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
           <folding>
-            <marker date="1474351838173" expanded="true" signature="4556:4596" placeholder="{...}" />
-            <marker date="1474351838173" expanded="true" signature="6908:6909" placeholder="{...}" />
+            <marker date="1474361130584" expanded="true" signature="7995:7996" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -590,8 +594,7 @@
         <state relative-caret-position="1428">
           <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
           <folding>
-            <marker date="1474351838173" expanded="true" signature="4556:4596" placeholder="{...}" />
-            <marker date="1474351838173" expanded="true" signature="6908:6909" placeholder="{...}" />
+            <marker date="1474361130584" expanded="true" signature="7995:7996" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -645,29 +648,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/all.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4828">
-          <caret line="299" column="0" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
+        <state relative-caret-position="858">
+          <caret line="334" column="0" selection-start-line="334" selection-start-column="0" selection-end-line="334" selection-end-column="0" />
           <folding>
-            <marker date="1474351838173" expanded="true" signature="4556:4596" placeholder="{...}" />
-            <marker date="1474351838173" expanded="true" signature="6908:6909" placeholder="{...}" />
+            <marker date="1474361130584" expanded="true" signature="7995:7996" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -680,18 +666,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        <state relative-caret-position="450">
+          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/all.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="143" column="16" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
+        <state relative-caret-position="780">
+          <caret line="132" column="31" selection-start-line="132" selection-start-column="31" selection-end-line="132" selection-end-column="31" />
           <folding />
         </state>
       </provider>
