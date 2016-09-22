@@ -295,30 +295,43 @@ html, body {
   color: crimson;
 }
 /* line 219, ../sass/all.scss */
+.page-container .right-side section.price .rowPrices .column#item-3:after, .page-container .right-side section.price .rowPrices .column#item-6:after, .page-container .right-side section.price .rowPrices .column#item-9:after {
+  position: absolute;
+  top: 20%;
+  left: 30px;
+  color: rgba(128, 128, 128, 0.09);
+  line-height: 220px;
+  font-family: "LatoRegular";
+  font-size: 212px;
+  font-weight: 900;
+  font-style: normal;
+  content: 'Hi';
+}
+/* line 231, ../sass/all.scss */
 .page-container .right-side section.price .rowPrices .column.text-center h3:after {
   left: 48%;
 }
-/* line 222, ../sass/all.scss */
+/* line 234, ../sass/all.scss */
 .page-container .right-side section.price .rowPrices .float-left {
   float: left;
 }
-/* line 225, ../sass/all.scss */
+/* line 237, ../sass/all.scss */
 .page-container .right-side section.price .rowPrices .float-right {
   float: right;
 }
-/* line 229, ../sass/all.scss */
+/* line 241, ../sass/all.scss */
 .page-container .right-side section.price h2 {
   font: 2rem "LatoRegular";
   text-align: center;
 }
-/* line 233, ../sass/all.scss */
+/* line 245, ../sass/all.scss */
 .page-container .right-side section.price hr {
   background: #f50057;
   width: 40%;
   height: 1px;
   position: relative;
 }
-/* line 238, ../sass/all.scss */
+/* line 250, ../sass/all.scss */
 .page-container .right-side section.price hr:after {
   content: '';
   background: url("../img/raspberries-small.png");
@@ -328,7 +341,7 @@ html, body {
   bottom: -12px;
   left: 42%;
 }
-/* line 248, ../sass/all.scss */
+/* line 260, ../sass/all.scss */
 .page-container .right-side section.price hr.end-hr {
   margin-top: 40px;
 }
@@ -412,7 +425,7 @@ html, body {
   }
 }
 /* =========FlexBox===========*/
-/* line 347, ../sass/all.scss */
+/* line 359, ../sass/all.scss */
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -420,7 +433,7 @@ html, body {
   align-items: center;
 }
 
-/* line 354, ../sass/all.scss */
+/* line 366, ../sass/all.scss */
 .flex {
   display: -webkit-box;
   display: -moz-box;
@@ -429,19 +442,19 @@ html, body {
   display: flex;
 }
 
-/* line 362, ../sass/all.scss */
+/* line 374, ../sass/all.scss */
 .flex-column {
   -webkit-flex-direction: column;
   flex-direction: column;
 }
 
-/* line 367, ../sass/all.scss */
+/* line 379, ../sass/all.scss */
 .flex-row {
   -webkit-flex-direction: row;
   flex-direction: row;
 }
 
-/* line 373, ../sass/all.scss */
+/* line 385, ../sass/all.scss */
 .flex-center-all {
   -webkit-justify-content: center;
   justify-content: center;
@@ -449,18 +462,18 @@ html, body {
 }
 
 /*============ Clearfix=========== */
-/* line 381, ../sass/all.scss */
+/* line 393, ../sass/all.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 385, ../sass/all.scss */
+/* line 397, ../sass/all.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 389, ../sass/all.scss */
+/* line 401, ../sass/all.scss */
 .clrearfix {
   zoom: 1;
 }

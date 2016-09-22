@@ -215,6 +215,18 @@ html, body {
             color: crimson;
 
           }
+          }
+        .column#item-3:after, .column#item-6:after, .column#item-9:after{
+            position: absolute;
+            top: 20%;
+            left: 30px;
+            color: rgba(128, 128, 128, 0.09);
+            line-height: 220px;
+            font-family: $font-Lato;
+            font-size: 212px;
+            font-weight: 900;
+            font-style: normal;
+            content: 'Hi';
         }
         .column.text-center h3:after {
           left: 48%;
