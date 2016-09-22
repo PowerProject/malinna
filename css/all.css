@@ -148,14 +148,13 @@ html, body {
 .page-container .left-side .slideshow .carousel-inner .item {
   -webkit-transition: 3s cubic-bezier(0.55, 0.09, 0.68, 0.53) right;
   -moz-transition: 3s cubic-bezier(0.55, 0.09, 0.68, 0.53) right;
-  -ms-transition: 3s cubic-bezier(0.55, 0.09, 0.68, 0.53) right;
   -o-transition: 3s cubic-bezier(0.55, 0.09, 0.68, 0.53) right;
   transition: 3s cubic-bezier(0.55, 0.09, 0.68, 0.53) right;
   animation: fade 3s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-/* line 92, ../sass/all.scss */
+/* line 91, ../sass/all.scss */
 .page-container .left-side .slideshow .carousel-inner .item img {
   object-fit: cover;
   object-position: inherit;
@@ -165,28 +164,28 @@ html, body {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-/* line 102, ../sass/all.scss */
+/* line 101, ../sass/all.scss */
 .page-container .left-side .slideshow .carousel-inner .item.active {
   overflow: hidden;
 }
-/* line 108, ../sass/all.scss */
+/* line 107, ../sass/all.scss */
 .page-container .right-side {
   background: #fffcff;
   float: right;
   width: 50%;
 }
-/* line 112, ../sass/all.scss */
+/* line 111, ../sass/all.scss */
 .page-container .right-side section.full-height {
   position: relative;
   height: 100vh;
 }
-/* line 115, ../sass/all.scss */
+/* line 114, ../sass/all.scss */
 .page-container .right-side section.full-height header {
   position: relative;
   padding: 30px 0 10px 0;
   z-index: 6;
 }
-/* line 119, ../sass/all.scss */
+/* line 118, ../sass/all.scss */
 .page-container .right-side section.full-height header .navbar {
   border: none;
   background: transparent;
@@ -195,16 +194,16 @@ html, body {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-/* line 126, ../sass/all.scss */
+/* line 125, ../sass/all.scss */
 .page-container .right-side section.full-height header .navbar .nav-container {
   text-align: center;
 }
-/* line 128, ../sass/all.scss */
+/* line 127, ../sass/all.scss */
 .page-container .right-side section.full-height header .navbar .nav-container ul.navbar-nav {
   float: none;
   display: inline-block;
 }
-/* line 132, ../sass/all.scss */
+/* line 131, ../sass/all.scss */
 .page-container .right-side section.full-height header .navbar .nav-container ul.navbar-nav li a {
   text-transform: uppercase;
   font: 12px "LatoRegular";
@@ -214,48 +213,48 @@ html, body {
   letter-spacing: 2px;
   padding: 10px 13px;
 }
-/* line 142, ../sass/all.scss */
+/* line 141, ../sass/all.scss */
 .page-container .right-side section.full-height header .navbar .nav-container ul.navbar-nav li.active {
   background: transparent;
 }
-/* line 144, ../sass/all.scss */
+/* line 143, ../sass/all.scss */
 .page-container .right-side section.full-height header .navbar .nav-container ul.navbar-nav li.active a {
   color: #f50057;
 }
-/* line 153, ../sass/all.scss */
+/* line 152, ../sass/all.scss */
 .page-container .right-side section.full-height .head .head-content, .page-container .right-side section.full-height .head .scroll {
   animation: animation-slide-left 1s 2.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-/* line 157, ../sass/all.scss */
+/* line 156, ../sass/all.scss */
 .page-container .right-side section.full-height .head .head-content p, .page-container .right-side section.full-height .head .scroll p {
   font: 1rem "LatoLight";
   line-height: 1.8rem;
   color: rgba(90, 90, 90, 0.9);
 }
-/* line 163, ../sass/all.scss */
+/* line 162, ../sass/all.scss */
 .page-container .right-side section.full-height .head #head-description {
   width: 65%;
   margin: 0 auto;
 }
-/* line 168, ../sass/all.scss */
+/* line 167, ../sass/all.scss */
 .page-container .right-side section.full-height .head .scroll {
   position: absolute;
   width: 100%;
   bottom: 3%;
 }
-/* line 173, ../sass/all.scss */
+/* line 172, ../sass/all.scss */
 .page-container .right-side section.full-height .head .scroll img.gif {
   width: 65px;
   opacity: 0.8;
 }
-/* line 177, ../sass/all.scss */
+/* line 176, ../sass/all.scss */
 .page-container .right-side section.full-height .head .scroll p {
   font: 10px "LatoRegular";
   text-transform: uppercase;
 }
-/* line 185, ../sass/all.scss */
+/* line 184, ../sass/all.scss */
 .page-container .right-side section.price {
   position: relative;
 }
@@ -339,7 +338,7 @@ html, body {
   }
 }
 /* =========FlexBox===========*/
-/* line 283, ../sass/all.scss */
+/* line 282, ../sass/all.scss */
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -347,7 +346,7 @@ html, body {
   align-items: center;
 }
 
-/* line 290, ../sass/all.scss */
+/* line 289, ../sass/all.scss */
 .flex {
   display: -webkit-box;
   display: -moz-box;
@@ -356,19 +355,19 @@ html, body {
   display: flex;
 }
 
-/* line 298, ../sass/all.scss */
+/* line 297, ../sass/all.scss */
 .flex-column {
   -webkit-flex-direction: column;
   flex-direction: column;
 }
 
-/* line 303, ../sass/all.scss */
+/* line 302, ../sass/all.scss */
 .flex-row {
   -webkit-flex-direction: row;
   flex-direction: row;
 }
 
-/* line 309, ../sass/all.scss */
+/* line 308, ../sass/all.scss */
 .flex-center-all {
   -webkit-justify-content: center;
   justify-content: center;
@@ -376,18 +375,18 @@ html, body {
 }
 
 /*============ Clearfix=========== */
-/* line 317, ../sass/all.scss */
+/* line 316, ../sass/all.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 321, ../sass/all.scss */
+/* line 320, ../sass/all.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 325, ../sass/all.scss */
+/* line 324, ../sass/all.scss */
 .clrearfix {
   zoom: 1;
 }
