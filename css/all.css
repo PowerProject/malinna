@@ -84,21 +84,21 @@ html, body {
   z-index: 1000;
   width: 100%;
 }
-/* line 29, ../sass/all.scss */
-.page-loader .loader-content {
+
+/* line 32, ../sass/all.scss */
+.content {
   text-align: center;
   top: 40%;
   position: absolute;
   width: 100%;
 }
-/* line 34, ../sass/all.scss */
-.page-loader .loader-content h1 {
+/* line 37, ../sass/all.scss */
+.content h1 {
   font: 3rem "LatoLightItalic";
-  text-align: center;
   animation: fade-bottom 1s;
 }
-/* line 39, ../sass/all.scss */
-.page-loader .loader-content p {
+/* line 41, ../sass/all.scss */
+.content p {
   font: 1.5rem "LatoLightItalic";
   padding-bottom: 10px;
   animation: simple-fade 2s 0.6s;
@@ -106,20 +106,22 @@ html, body {
   animation-fill-mode: both;
 }
 /* line 48, ../sass/all.scss */
-.page-loader .loader-content img {
+.content img {
   width: 55px;
   animation: rotate 1.5s 1s;
 }
 
-/* line 55, ../sass/all.scss */
+/* line 54, ../sass/all.scss */
 .page-container {
   backface-visibility: hidden;
 }
-/* line 57, ../sass/all.scss */
+/* line 56, ../sass/all.scss */
 .page-container .left-side {
-  animation: animation-slide-right 1.5s 2.5s;
+  animation: animation-slide-right 1s 2.5s;
+  position: fixed;
+  width: 50%;
 }
-/* line 59, ../sass/all.scss */
+/* line 60, ../sass/all.scss */
 .page-container .left-side .overlay-panel {
   position: absolute;
   top: 0;
@@ -127,22 +129,22 @@ html, body {
   left: 0;
   right: 0;
   padding: 20px;
-     /* h3 {
-        top: 75%;
-        color: rgba(255,255,255,0.6);
-        z-index: 1;
-        position: relative;
-        font: 2.8rem $font-LatoI;
-        text-align: center;
+      /* h3 {
+         top: 75%;
+         color: rgba(255,255,255,0.6);
+         z-index: 1;
+         position: relative;
+         font: 2.8rem $font-LatoI;
+         text-align: center;
 
-      }*/
+       }*/
 }
-/* line 66, ../sass/all.scss */
+/* line 67, ../sass/all.scss */
 .page-container .left-side .overlay-panel img {
   position: absolute;
   z-index: 1;
 }
-/* line 82, ../sass/all.scss */
+/* line 83, ../sass/all.scss */
 .page-container .left-side .slideshow .carousel-inner .item {
   -webkit-transition: 3s cubic-bezier(0.55, 0.09, 0.68, 0.53) right;
   -moz-transition: 3s cubic-bezier(0.55, 0.09, 0.68, 0.53) right;
@@ -153,7 +155,7 @@ html, body {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-/* line 91, ../sass/all.scss */
+/* line 92, ../sass/all.scss */
 .page-container .left-side .slideshow .carousel-inner .item img {
   object-fit: cover;
   object-position: inherit;
@@ -163,50 +165,99 @@ html, body {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-/* line 101, ../sass/all.scss */
+/* line 102, ../sass/all.scss */
 .page-container .left-side .slideshow .carousel-inner .item.active {
   overflow: hidden;
 }
-/* line 107, ../sass/all.scss */
+/* line 108, ../sass/all.scss */
 .page-container .right-side {
   background: #fffcff;
+  float: right;
+  width: 50%;
 }
-/* line 109, ../sass/all.scss */
-.page-container .right-side header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  padding: 20px 0 10px 0;
+/* line 112, ../sass/all.scss */
+.page-container .right-side section.full-height {
+  position: relative;
+  height: 100vh;
+}
+/* line 115, ../sass/all.scss */
+.page-container .right-side section.full-height header {
+  position: relative;
+  padding: 30px 0 10px 0;
   z-index: 6;
 }
-/* line 116, ../sass/all.scss */
-.page-container .right-side header .navbar {
+/* line 119, ../sass/all.scss */
+.page-container .right-side section.full-height header .navbar {
   border: none;
   background: transparent;
   margin-bottom: 0;
+  animation: fade-low 0.5s 2.9s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
-/* line 120, ../sass/all.scss */
-.page-container .right-side header .navbar .nav-container {
+/* line 126, ../sass/all.scss */
+.page-container .right-side section.full-height header .navbar .nav-container {
   text-align: center;
 }
-/* line 122, ../sass/all.scss */
-.page-container .right-side header .navbar .nav-container ul.navbar-nav {
+/* line 128, ../sass/all.scss */
+.page-container .right-side section.full-height header .navbar .nav-container ul.navbar-nav {
   float: none;
   display: inline-block;
 }
-/* line 127, ../sass/all.scss */
-.page-container .right-side header .navbar .nav-container ul.navbar-nav li a {
+/* line 132, ../sass/all.scss */
+.page-container .right-side section.full-height header .navbar .nav-container ul.navbar-nav li a {
   text-transform: uppercase;
-  font: 13px "LatoRegular";
-  color: #f50057;
+  font: 12px "LatoRegular";
+  color: rgba(128, 128, 128, 0.6);
   background: transparent;
   font-weight: 400;
   letter-spacing: 2px;
+  padding: 10px 13px;
 }
-/* line 136, ../sass/all.scss */
-.page-container .right-side header .navbar .nav-container ul.navbar-nav li.active {
+/* line 142, ../sass/all.scss */
+.page-container .right-side section.full-height header .navbar .nav-container ul.navbar-nav li.active {
   background: transparent;
+}
+/* line 144, ../sass/all.scss */
+.page-container .right-side section.full-height header .navbar .nav-container ul.navbar-nav li.active a {
+  color: #f50057;
+}
+/* line 153, ../sass/all.scss */
+.page-container .right-side section.full-height .head .head-content, .page-container .right-side section.full-height .head .scroll {
+  animation: animation-slide-left 1s 2.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+/* line 157, ../sass/all.scss */
+.page-container .right-side section.full-height .head .head-content p, .page-container .right-side section.full-height .head .scroll p {
+  font: 1rem "LatoLight";
+  line-height: 1.8rem;
+  color: rgba(90, 90, 90, 0.9);
+}
+/* line 163, ../sass/all.scss */
+.page-container .right-side section.full-height .head #head-description {
+  width: 65%;
+  margin: 0 auto;
+}
+/* line 168, ../sass/all.scss */
+.page-container .right-side section.full-height .head .scroll {
+  position: absolute;
+  width: 100%;
+  bottom: 3%;
+}
+/* line 173, ../sass/all.scss */
+.page-container .right-side section.full-height .head .scroll img.gif {
+  width: 65px;
+  opacity: 0.8;
+}
+/* line 177, ../sass/all.scss */
+.page-container .right-side section.full-height .head .scroll p {
+  font: 10px "LatoRegular";
+  text-transform: uppercase;
+}
+/* line 185, ../sass/all.scss */
+.page-container .right-side section.price {
+  position: relative;
 }
 
 /* =========Keyframes===========*/
@@ -223,6 +274,14 @@ html, body {
 @keyframes fade {
   0% {
     opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-low {
+  0% {
+    opacity: 0;
   }
   100% {
     opacity: 1;
@@ -250,8 +309,8 @@ html, body {
 @keyframes animation-slide-right {
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(50%, 0, 0);
-    transform: translate3d(50%, 0, 0);
+    -webkit-transform: translate3d(70%, 0, 0);
+    transform: translate3d(70%, 0, 0);
   }
   100% {
     opacity: 1;
@@ -262,8 +321,8 @@ html, body {
 @keyframes animation-slide-left {
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(-50%, 0, 0);
-    transform: translate3d(-50%, 0, 0);
+    -webkit-transform: translate3d(-70%, 0, 0);
+    transform: translate3d(-70%, 0, 0);
   }
   100% {
     opacity: 1;
@@ -280,7 +339,7 @@ html, body {
   }
 }
 /* =========FlexBox===========*/
-/* line 230, ../sass/all.scss */
+/* line 283, ../sass/all.scss */
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -288,7 +347,7 @@ html, body {
   align-items: center;
 }
 
-/* line 237, ../sass/all.scss */
+/* line 290, ../sass/all.scss */
 .flex {
   display: -webkit-box;
   display: -moz-box;
@@ -297,19 +356,19 @@ html, body {
   display: flex;
 }
 
-/* line 245, ../sass/all.scss */
+/* line 298, ../sass/all.scss */
 .flex-column {
   -webkit-flex-direction: column;
   flex-direction: column;
 }
 
-/* line 250, ../sass/all.scss */
+/* line 303, ../sass/all.scss */
 .flex-row {
   -webkit-flex-direction: row;
   flex-direction: row;
 }
 
-/* line 256, ../sass/all.scss */
+/* line 309, ../sass/all.scss */
 .flex-center-all {
   -webkit-justify-content: center;
   justify-content: center;
@@ -317,18 +376,18 @@ html, body {
 }
 
 /*============ Clearfix=========== */
-/* line 264, ../sass/all.scss */
+/* line 317, ../sass/all.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 268, ../sass/all.scss */
+/* line 321, ../sass/all.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 272, ../sass/all.scss */
+/* line 325, ../sass/all.scss */
 .clrearfix {
   zoom: 1;
 }
