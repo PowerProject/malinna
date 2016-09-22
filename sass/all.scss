@@ -261,8 +261,12 @@ html, body {
         margin-top: 40px;
       }
     }
-
-
+    section.portfolio  {
+      .bg {
+        background: url("../img/many-raspberries.png");
+        height: 400px;
+      }
+    }
   }
 }
 

@@ -345,6 +345,11 @@ html, body {
 .page-container .right-side section.price hr.end-hr {
   margin-top: 40px;
 }
+/* line 265, ../sass/all.scss */
+.page-container .right-side section.portfolio .bg {
+  background: url("../img/many-raspberries.png");
+  height: 400px;
+}
 
 /* =========Keyframes===========*/
 @keyframes fade-bottom {
@@ -425,7 +430,7 @@ html, body {
   }
 }
 /* =========FlexBox===========*/
-/* line 359, ../sass/all.scss */
+/* line 363, ../sass/all.scss */
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -433,7 +438,7 @@ html, body {
   align-items: center;
 }
 
-/* line 366, ../sass/all.scss */
+/* line 370, ../sass/all.scss */
 .flex {
   display: -webkit-box;
   display: -moz-box;
@@ -442,19 +447,19 @@ html, body {
   display: flex;
 }
 
-/* line 374, ../sass/all.scss */
+/* line 378, ../sass/all.scss */
 .flex-column {
   -webkit-flex-direction: column;
   flex-direction: column;
 }
 
-/* line 379, ../sass/all.scss */
+/* line 383, ../sass/all.scss */
 .flex-row {
   -webkit-flex-direction: row;
   flex-direction: row;
 }
 
-/* line 385, ../sass/all.scss */
+/* line 389, ../sass/all.scss */
 .flex-center-all {
   -webkit-justify-content: center;
   justify-content: center;
@@ -462,18 +467,18 @@ html, body {
 }
 
 /*============ Clearfix=========== */
-/* line 393, ../sass/all.scss */
+/* line 397, ../sass/all.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 397, ../sass/all.scss */
+/* line 401, ../sass/all.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 401, ../sass/all.scss */
+/* line 405, ../sass/all.scss */
 .clrearfix {
   zoom: 1;
 }
