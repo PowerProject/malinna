@@ -26,36 +26,37 @@ html, body {
   position: fixed;
   z-index: 1000;
   width: 100%;
-  .loader-content {
-    text-align: center;
-    top: 40%;
-    position: absolute;
-    width: 100%;
-    h1 {
-      font: 3rem $font-LatoLI;
-      text-align: center;
-      animation: fade-bottom 1s;
-    }
-    p {
-      font: 1.5rem $font-LatoLI;
-      padding-bottom: 10px;
-      animation: simple-fade 2s 0.6s;
-      -webkit-animation-fill-mode: both;
-      animation-fill-mode: both;
 
+}
 
-    }
-    img {
-      width: 55px;
-      animation: rotate 1.5s 1s;
-    }
+.content {
+  text-align: center;
+  top: 40%;
+  position: absolute;
+  width: 100%;
+  h1 {
+    font: 3rem $font-LatoLI;
+    animation: fade-bottom 1s;
+  }
+  p {
+    font: 1.5rem $font-LatoLI;
+    padding-bottom: 10px;
+    animation: simple-fade 2s 0.6s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  img {
+    width: 55px;
+    animation: rotate 1.5s 1s;
   }
 }
 
 .page-container {
   backface-visibility: hidden;
   .left-side {
-    animation: animation-slide-right 1.5s 2.5s;
+    animation: animation-slide-right 1s 2.5s;
+    position: fixed;
+    width: 50%;
     .overlay-panel {
       position: absolute;
       top: 0;
@@ -67,22 +68,21 @@ html, body {
         position: absolute;
         z-index: 1;
       }
-     /* h3 {
-        top: 75%;
-        color: rgba(255,255,255,0.6);
-        z-index: 1;
-        position: relative;
-        font: 2.8rem $font-LatoI;
-        text-align: center;
+      /* h3 {
+         top: 75%;
+         color: rgba(255,255,255,0.6);
+         z-index: 1;
+         position: relative;
+         font: 2.8rem $font-LatoI;
+         text-align: center;
 
-      }*/
+       }*/
     }
     .slideshow {
       .carousel-inner {
         .item {
           -webkit-transition: 3s cubic-bezier(.55,.09,.68,.53) right;
           -moz-transition: 3s cubic-bezier(.55,.09,.68,.53) right;
-          -ms-transition: 3s cubic-bezier(.55,.09,.68,.53) right;
           -o-transition: 3s cubic-bezier(.55,.09,.68,.53) right;
           transition: 3s cubic-bezier(.55,.09,.68,.53) right;
           animation: fade 3s;
@@ -106,42 +106,86 @@ html, body {
   }
   .right-side {
     background: $light;
-    header {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      padding: 20px 0 10px 0;
-      z-index: 6;
-      .navbar {
-      border: none;
-      background: transparent;
-        margin-bottom: 0;
-      .nav-container {
-        text-align: center;
-        ul.navbar-nav {
-          float: none;
-          display: inline-block;
-          li {
-
-            a {
-              text-transform: uppercase;
-              font: 13px $font-Lato;
-              color: $crimson;
-              background: transparent;
-              font-weight: 400;
-              letter-spacing: 2px;
+    float: right;
+    width: 50%;
+    section.full-height {
+      position: relative;
+      height: 100vh;
+      header {
+        position: relative;
+        padding: 30px 0 10px 0;
+        z-index: 6;
+        .navbar {
+          border: none;
+          background: transparent;
+          margin-bottom: 0;
+          animation: fade-low 0.5s 2.9s;
+          -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+          .nav-container {
+            text-align: center;
+            ul.navbar-nav {
+              float: none;
+              display: inline-block;
+              li {
+                a {
+                  text-transform: uppercase;
+                  font: 12px $font-Lato;
+                  color: $grey;
+                  background: transparent;
+                  font-weight: 400;
+                  letter-spacing: 2px;
+                  padding: 10px 13px;
+                }
+              }
+              li.active {
+                background: transparent;
+                a {
+                  color: $crimson;
+                }
+              }
             }
-          }
-          li.active {
-            background: transparent;
           }
         }
       }
+      .head {
+        .head-content {
+          animation: animation-slide-left 1s 2.5s;
+          -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+          p {
+            font: 1rem $font-LatoL;
+            line-height:1.8rem;
+            color: rgba(90, 90, 90, 0.9);
+          }
+        }
+        #head-description {
+          width: 65%;
+          margin: 0 auto;
+
+        }
+        .scroll {
+          position: absolute;
+          width: 100%;
+          bottom: 3%;
+        @extend  .head-content;
+          img.gif {
+            width: 65px;
+            opacity: 0.8;
+          }
+          p {
+            font: 10px $font-Lato;
+            text-transform: uppercase;
+          }
+        }
 
       }
-
     }
+    section.price {
+      position: relative;
+    }
+
+
   }
 }
 
@@ -166,6 +210,14 @@ html, body {
   }
 }
 
+@keyframes fade-low{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 @keyframes simple-fade {
   0% {
@@ -192,8 +244,8 @@ html, body {
 @keyframes animation-slide-right {
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(50%, 0, 0);
-    transform: translate3d(50%, 0, 0);
+    -webkit-transform: translate3d(70%, 0, 0);
+    transform: translate3d(70%, 0, 0);
   }
   100% {
     opacity: 1;
@@ -205,8 +257,8 @@ html, body {
 @keyframes animation-slide-left {
   0% {
     opacity: 0;
-    -webkit-transform: translate3d(-50%, 0, 0);
-    transform: translate3d(-50%, 0, 0);
+    -webkit-transform: translate3d(-70%, 0, 0);
+    transform: translate3d(-70%, 0, 0);
   }
   100% {
     opacity: 1;
