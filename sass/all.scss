@@ -184,6 +184,7 @@ html, body {
     section.price {
       position: relative;
       padding-top: 5%;
+      padding-bottom: 5%;
       .rowPrices {
         padding-top: 5%;
         .column {
@@ -215,6 +216,9 @@ html, body {
 
           }
         }
+        .column.text-center h3:after {
+          left: 48%;
+        }
         .float-left {
           float: left;
         }
@@ -222,10 +226,27 @@ html, body {
           float: right;
         }
       }
+      h2 {
+        font: 2rem $font-Lato;
+        text-align: center;
+      }
       hr {
         background: $crimson;
         width: 40%;
         height: 1px;
+        position: relative;
+        &:after {
+          content: '';
+          background: url("../img/raspberries-small.png");
+          position: absolute;
+          width: 40px;
+          height: 30px;
+          bottom: -12px;
+          left: 42%;
+        }
+      }
+      hr.end-hr {
+        margin-top: 40px;
       }
     }
 
