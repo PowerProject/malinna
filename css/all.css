@@ -258,13 +258,12 @@ html, body {
 .page-container .right-side section.price {
   position: relative;
   padding-top: 5%;
-  padding-bottom: 5%;
 }
-/* line 188, ../sass/all.scss */
+/* line 187, ../sass/all.scss */
 .page-container .right-side section.price .rowPrices {
   padding-top: 5%;
 }
-/* line 191, ../sass/all.scss */
+/* line 190, ../sass/all.scss */
 .page-container .right-side section.price .rowPrices .column h3 {
   position: relative;
   padding-bottom: 10px;
@@ -272,7 +271,7 @@ html, body {
   color: #212121;
   font-weight: 300;
 }
-/* line 197, ../sass/all.scss */
+/* line 196, ../sass/all.scss */
 .page-container .right-side section.price .rowPrices .column h3:after {
   content: '';
   position: absolute;
@@ -282,19 +281,19 @@ html, body {
   height: 2px;
   background: #f50057;
 }
-/* line 207, ../sass/all.scss */
+/* line 206, ../sass/all.scss */
 .page-container .right-side section.price .rowPrices .column p {
   font: 1rem "LatoLight";
   line-height: 1.6rem;
   color: rgba(90, 90, 90, 0.9);
   padding-top: 10px;
 }
-/* line 213, ../sass/all.scss */
+/* line 212, ../sass/all.scss */
 .page-container .right-side section.price .rowPrices .column p.cost {
   font: 1rem "LatoBoldItalic";
   color: crimson;
 }
-/* line 219, ../sass/all.scss */
+/* line 218, ../sass/all.scss */
 .page-container .right-side section.price .rowPrices .column#item-3:after, .page-container .right-side section.price .rowPrices .column#item-6:after, .page-container .right-side section.price .rowPrices .column#item-9:after {
   position: absolute;
   top: 20%;
@@ -307,32 +306,32 @@ html, body {
   font-style: normal;
   content: 'Hi';
 }
-/* line 231, ../sass/all.scss */
+/* line 230, ../sass/all.scss */
 .page-container .right-side section.price .rowPrices .column.text-center h3:after {
   left: 48%;
 }
-/* line 234, ../sass/all.scss */
+/* line 233, ../sass/all.scss */
 .page-container .right-side section.price .rowPrices .float-left {
   float: left;
 }
-/* line 237, ../sass/all.scss */
+/* line 236, ../sass/all.scss */
 .page-container .right-side section.price .rowPrices .float-right {
   float: right;
 }
-/* line 241, ../sass/all.scss */
-.page-container .right-side section.price h2 {
+/* line 243, ../sass/all.scss */
+.page-container .right-side h2 {
   font: 2rem "LatoRegular";
   text-align: center;
 }
-/* line 245, ../sass/all.scss */
-.page-container .right-side section.price hr {
+/* line 247, ../sass/all.scss */
+.page-container .right-side hr {
   background: #f50057;
   width: 40%;
   height: 1px;
   position: relative;
 }
-/* line 250, ../sass/all.scss */
-.page-container .right-side section.price hr:after {
+/* line 252, ../sass/all.scss */
+.page-container .right-side hr:after {
   content: '';
   background: url("../img/raspberries-small.png");
   position: absolute;
@@ -341,14 +340,43 @@ html, body {
   bottom: -12px;
   left: 42%;
 }
-/* line 260, ../sass/all.scss */
-.page-container .right-side section.price hr.end-hr {
+/* line 262, ../sass/all.scss */
+.page-container .right-side hr.end-hr {
   margin-top: 40px;
 }
-/* line 265, ../sass/all.scss */
-.page-container .right-side section.portfolio .bg {
-  background: url("../img/many-raspberries.png");
-  height: 400px;
+/* line 267, ../sass/all.scss */
+.page-container .right-side section.portfolio {
+  position: relative;
+}
+/* line 270, ../sass/all.scss */
+.page-container .right-side section.portfolio ul li {
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+/* line 274, ../sass/all.scss */
+.page-container .right-side section.portfolio ul li .overflow {
+  overflow: hidden;
+}
+/* line 278, ../sass/all.scss */
+.page-container .right-side section.portfolio ul li a img {
+  width: 100%;
+  transition: all 0.5s;
+}
+/* line 281, ../sass/all.scss */
+.page-container .right-side section.portfolio ul li a img:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+/* line 290, ../sass/all.scss */
+.page-container .right-side section.contacts {
+  position: relative;
+  padding-top: 4%;
+}
+
+/* line 298, ../sass/all.scss */
+a.fancybox-next, a.fancybox-prev {
+  outline: none !important;
 }
 
 /* =========Keyframes===========*/
@@ -430,7 +458,7 @@ html, body {
   }
 }
 /* =========FlexBox===========*/
-/* line 363, ../sass/all.scss */
+/* line 392, ../sass/all.scss */
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -438,7 +466,7 @@ html, body {
   align-items: center;
 }
 
-/* line 370, ../sass/all.scss */
+/* line 399, ../sass/all.scss */
 .flex {
   display: -webkit-box;
   display: -moz-box;
@@ -447,19 +475,19 @@ html, body {
   display: flex;
 }
 
-/* line 378, ../sass/all.scss */
+/* line 407, ../sass/all.scss */
 .flex-column {
   -webkit-flex-direction: column;
   flex-direction: column;
 }
 
-/* line 383, ../sass/all.scss */
+/* line 412, ../sass/all.scss */
 .flex-row {
   -webkit-flex-direction: row;
   flex-direction: row;
 }
 
-/* line 389, ../sass/all.scss */
+/* line 418, ../sass/all.scss */
 .flex-center-all {
   -webkit-justify-content: center;
   justify-content: center;
@@ -467,18 +495,18 @@ html, body {
 }
 
 /*============ Clearfix=========== */
-/* line 397, ../sass/all.scss */
+/* line 426, ../sass/all.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 401, ../sass/all.scss */
+/* line 430, ../sass/all.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 405, ../sass/all.scss */
+/* line 434, ../sass/all.scss */
 .clrearfix {
   zoom: 1;
 }

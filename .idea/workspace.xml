@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dc2b416-d2a6-4756-954c-c42b397fc1db" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/66e1ce14890a49f59ba1c79f1bfb4092bc54c850/all.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/66e1ce14890a49f59ba1c79f1bfb4092bc54c850/variables.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/clipart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inna1_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inna3_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/raspberries-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scroll.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scroll1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scroll2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/scroll3.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/66e1ce14890a49f59ba1c79f1bfb4092bc54c850/all.scssc" afterPath="$PROJECT_DIR$/.sass-cache/66e1ce14890a49f59ba1c79f1bfb4092bc54c850/all.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/all.css" afterPath="$PROJECT_DIR$/css/all.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common.js" afterPath="$PROJECT_DIR$/js/common.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/all.scss" afterPath="$PROJECT_DIR$/sass/all.scss" />
     </list>
     <ignored path="malinna.iws" />
@@ -35,14 +27,14 @@
     <favorites_list name="malinna" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.6581957">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="674">
-                  <caret line="189" column="34" selection-start-line="189" selection-start-column="34" selection-end-line="189" selection-end-column="34" />
+                <state relative-caret-position="756">
+                  <caret line="258" column="39" selection-start-line="258" selection-start-column="39" selection-end-line="258" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -55,8 +47,8 @@
           <file leaf-file-name="all.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sass/all.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="559">
-                  <caret line="266" column="21" selection-start-line="266" selection-start-column="21" selection-end-line="266" selection-end-column="21" />
+                <state relative-caret-position="491">
+                  <caret line="282" column="28" selection-start-line="282" selection-start-column="28" selection-end-line="282" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -65,8 +57,8 @@
           <file leaf-file-name="all.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/all.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="8143">
-                  <caret line="484" column="0" selection-start-line="484" selection-start-column="0" selection-end-line="484" selection-end-column="0" />
+                <state relative-caret-position="2816">
+                  <caret line="512" column="0" selection-start-line="512" selection-start-column="0" selection-end-line="512" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -95,8 +87,8 @@
           <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/common.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+                <state relative-caret-position="459">
+                  <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -131,8 +123,8 @@
         <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/css/fonts.css" />
         <option value="$PROJECT_DIR$/sass/variables.css" />
-        <option value="$PROJECT_DIR$/js/common.js" />
         <option value="$PROJECT_DIR$/sass/variables.scss" />
+        <option value="$PROJECT_DIR$/js/common.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/all.scss" />
       </list>
@@ -175,6 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -238,7 +231,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,6 +242,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="nodejs_interpreter_path" value="C:\Program Files\nodejs\node" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -327,7 +320,8 @@
       <workItem from="1474350258572" duration="5997000" />
       <workItem from="1474527868456" duration="4917000" />
       <workItem from="1474544502535" duration="4181000" />
-      <workItem from="1474549555931" duration="940000" />
+      <workItem from="1474549555931" duration="1004000" />
+      <workItem from="1474608398222" duration="7963000" />
     </task>
     <task id="LOCAL-00001" summary="add fonts, create file variables.css, add some img, write text to preloader">
       <created>1473945767323</created>
@@ -406,11 +400,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474547937629</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="create section portfolio, add bg">
+      <created>1474550543157</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1474550543157</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49094000" />
+    <option name="totallyTimeSpent" value="57121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -458,7 +459,8 @@
     <MESSAGE value="add services and cost&#10;" />
     <MESSAGE value="add services and cost and hr&#10;" />
     <MESSAGE value="remade section price into two columns, add raspberries to hr&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="remade section price into two columns, add raspberries to hr&#10;" />
+    <MESSAGE value="create section portfolio, add bg" />
+    <option name="LAST_COMMIT_MESSAGE" value="create section portfolio, add bg" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -802,22 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/all.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8143">
-          <caret line="484" column="0" selection-start-line="484" selection-start-column="0" selection-end-line="484" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
@@ -834,18 +820,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2816">
+          <caret line="512" column="0" selection-start-line="512" selection-start-column="0" selection-end-line="512" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="189" column="34" selection-start-line="189" selection-start-column="34" selection-end-line="189" selection-end-column="34" />
+        <state relative-caret-position="756">
+          <caret line="258" column="39" selection-start-line="258" selection-start-column="39" selection-end-line="258" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/all.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="266" column="21" selection-start-line="266" selection-start-column="21" selection-end-line="266" selection-end-column="21" />
+        <state relative-caret-position="491">
+          <caret line="282" column="28" selection-start-line="282" selection-start-column="28" selection-end-line="282" selection-end-column="28" />
           <folding />
         </state>
       </provider>

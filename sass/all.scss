@@ -184,7 +184,6 @@ html, body {
     section.price {
       position: relative;
       padding-top: 5%;
-      padding-bottom: 5%;
       .rowPrices {
         padding-top: 5%;
         .column {
@@ -238,36 +237,66 @@ html, body {
           float: right;
         }
       }
-      h2 {
-        font: 2rem $font-Lato;
-        text-align: center;
+
+
+    }
+    h2 {
+      font: 2rem $font-Lato;
+      text-align: center;
+    }
+    hr {
+      background: $crimson;
+      width: 40%;
+      height: 1px;
+      position: relative;
+      &:after {
+        content: '';
+        background: url("../img/raspberries-small.png");
+        position: absolute;
+        width: 40px;
+        height: 30px;
+        bottom: -12px;
+        left: 42%;
       }
-      hr {
-        background: $crimson;
-        width: 40%;
-        height: 1px;
-        position: relative;
-        &:after {
-          content: '';
-          background: url("../img/raspberries-small.png");
-          position: absolute;
-          width: 40px;
-          height: 30px;
-          bottom: -12px;
-          left: 42%;
+    }
+    hr.end-hr {
+      margin-top: 40px;
+    }
+
+
+    section.portfolio  {
+      position: relative;
+      ul {
+        li {
+          float: left;
+          padding-top: 10px;
+          padding-left: 10px;
+          .overflow {
+            overflow: hidden;
+          }
+          a {
+            img {
+              width: 100%;
+              transition: all 0.5s;
+              &:hover {
+                transform: scale(1.2);
+                opacity: 0.8;
+              }
+            }
+          }
         }
       }
-      hr.end-hr {
-        margin-top: 40px;
-      }
     }
-    section.portfolio  {
-      .bg {
-        background: url("../img/many-raspberries.png");
-        height: 400px;
-      }
+    section.contacts {
+      position: relative;
+      padding-top: 4%;
     }
   }
+}
+
+
+a.fancybox-next, a.fancybox-prev {
+  outline: none !important;
 }
 
 /* =========Keyframes===========*/

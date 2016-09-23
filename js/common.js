@@ -14,20 +14,19 @@ $(document).ready(function() {
         $('.item').css({'height': wh + 'px'});
     };
 
-  /*  $(".bg-inna").offset(function(i,val){
-        var wh=$(window).height();
-        return {top:val.top + wh/4, left:val.left};
-    });
-
-   var translateLeftSide = function () {
-        var wh=$(window).height();
-        $('.bg-inna').position({top:-wh/4});
-    };
-
-*/
+    //Bootstrap Slider
     $('.carousel').carousel({
         interval: 12000,
         pause: 0
+    });
+
+    //FancyBox
+    $(".fancybox").fancybox({
+        openEffect: 'fade',
+        closeEffect: 'fade',
+        nextEffect: 'fade',
+        prevEffect: 'fade'
+
     });
 
 
@@ -40,9 +39,6 @@ $(document).ready(function() {
     /*  =========== Resize ============*/
     $(window).resize(function() {
         settings();
-
-
-      /*  translateLeftSide();*/
     });
 
 });
