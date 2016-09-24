@@ -2,52 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dc2b416-d2a6-4756-954c-c42b397fc1db" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/clipart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/many-raspberries.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/opacity.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio38.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio39.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio41.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio42.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio43.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio44.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio45.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio46.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio48.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio49.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio50.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio51.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio52.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio53.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vkontakte.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio1-small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio10-small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio11-small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio12-small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio13-small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio2-small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio3-small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio4-small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio5-small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio6-small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio7-small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio8-small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio9-small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio9.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/66e1ce14890a49f59ba1c79f1bfb4092bc54c850/all.scssc" afterPath="$PROJECT_DIR$/.sass-cache/66e1ce14890a49f59ba1c79f1bfb4092bc54c850/all.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/inna1.jpg" afterPath="$PROJECT_DIR$/img/inna1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/inna1_1.jpg" afterPath="$PROJECT_DIR$/img/inna1_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/inna2.jpg" afterPath="$PROJECT_DIR$/img/inna2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/inna3.jpg" afterPath="$PROJECT_DIR$/img/inna3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/inna3_3.jpg" afterPath="$PROJECT_DIR$/img/inna3_3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/inna4.jpg" afterPath="$PROJECT_DIR$/img/inna4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/malinna_logo.png" afterPath="$PROJECT_DIR$/img/malinna_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/raspberries-small.png" afterPath="$PROJECT_DIR$/img/raspberries-small.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/raspberries-super-small.png" afterPath="$PROJECT_DIR$/img/raspberries-super-small.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/raspberries.png" afterPath="$PROJECT_DIR$/img/raspberries.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/raspberries_big.png" afterPath="$PROJECT_DIR$/img/raspberries_big.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/sprite-vk.png" afterPath="$PROJECT_DIR$/img/sprite-vk.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/all.css" afterPath="$PROJECT_DIR$/css/all.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
@@ -77,8 +70,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="211">
-                  <caret line="201" column="136" selection-start-line="201" selection-start-column="136" selection-end-line="201" selection-end-column="136" />
+                <state relative-caret-position="340">
+                  <caret line="186" column="26" selection-start-line="186" selection-start-column="26" selection-end-line="186" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -88,22 +81,24 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="all.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="all.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sass/all.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="493">
-                  <caret line="377" column="14" selection-start-line="377" selection-start-column="14" selection-end-line="377" selection-end-column="14" />
+                <state relative-caret-position="440">
+                  <caret line="316" column="28" selection-start-line="316" selection-start-column="28" selection-end-line="316" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="all.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="all.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/all.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="654">
-                  <caret line="512" column="0" selection-start-line="512" selection-start-column="0" selection-end-line="512" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="646">
+                  <caret line="688" column="0" selection-start-line="688" selection-start-column="0" selection-end-line="688" selection-end-column="0" />
+                  <folding>
+                    <marker date="1474720057742" expanded="true" signature="17801:17802" placeholder="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -121,8 +116,8 @@
           <file leaf-file-name="variables.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/variables.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+                <state relative-caret-position="238">
+                  <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
@@ -170,8 +165,8 @@
         <option value="$PROJECT_DIR$/js/common.js" />
         <option value="$PROJECT_DIR$/sass/variables.scss" />
         <option value="$PROJECT_DIR$/sass/mixins.scss" />
-        <option value="$PROJECT_DIR$/sass/all.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sass/all.scss" />
       </list>
     </option>
   </component>
@@ -367,7 +362,7 @@
       <workItem from="1474544502535" duration="4181000" />
       <workItem from="1474549555931" duration="1004000" />
       <workItem from="1474608398222" duration="7981000" />
-      <workItem from="1474693616289" duration="17022000" />
+      <workItem from="1474693616289" duration="20516000" />
     </task>
     <task id="LOCAL-00001" summary="add fonts, create file variables.css, add some img, write text to preloader">
       <created>1473945767323</created>
@@ -474,11 +469,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474710364465</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="done marker decription in google maps">
+      <created>1474717082037</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1474717082037</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74161000" />
+    <option name="totallyTimeSpent" value="77655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -530,7 +532,8 @@
     <MESSAGE value="create gallery" />
     <MESSAGE value="create section contacts, create footer" />
     <MESSAGE value="create button enroll in services" />
-    <option name="LAST_COMMIT_MESSAGE" value="create button enroll in services" />
+    <MESSAGE value="done marker decription in google maps" />
+    <option name="LAST_COMMIT_MESSAGE" value="done marker decription in google maps" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -573,7 +576,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7497">
           <caret line="441" column="0" selection-start-line="441" selection-start-column="0" selection-end-line="441" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1474720057742" expanded="true" signature="17801:17802" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -621,7 +626,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5678">
           <caret line="334" column="0" selection-start-line="334" selection-start-column="0" selection-end-line="334" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1474720057742" expanded="true" signature="17801:17802" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -669,7 +676,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4828">
           <caret line="284" column="0" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1474720057742" expanded="true" signature="17801:17802" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -717,7 +726,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4692">
           <caret line="276" column="0" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1474720057742" expanded="true" signature="17801:17802" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -765,7 +776,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3978">
           <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1474720057742" expanded="true" signature="17801:17802" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -813,7 +826,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1428">
           <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
-          <folding />
+          <folding>
+            <marker date="1474720057742" expanded="true" signature="17801:17802" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -882,14 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -898,26 +905,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/all.scss">
+    <entry file="file://$PROJECT_DIR$/css/all.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="377" column="14" selection-start-line="377" selection-start-column="14" selection-end-line="377" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="646">
+          <caret line="688" column="0" selection-start-line="688" selection-start-column="0" selection-end-line="688" selection-end-column="0" />
+          <folding>
+            <marker date="1474720057742" expanded="true" signature="17801:17802" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/all.css">
+    <entry file="file://$PROJECT_DIR$/sass/variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="512" column="0" selection-start-line="512" selection-start-column="0" selection-end-line="512" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="201" column="136" selection-start-line="201" selection-start-column="136" selection-end-line="201" selection-end-column="136" />
+        <state relative-caret-position="340">
+          <caret line="186" column="26" selection-start-line="186" selection-start-column="26" selection-end-line="186" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/all.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="316" column="28" selection-start-line="316" selection-start-column="28" selection-end-line="316" selection-end-column="28" />
           <folding />
         </state>
       </provider>
