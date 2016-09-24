@@ -6,6 +6,10 @@ $(document).ready(function() {
         $('.page-loader').css('display','none');
     }
 
+    function bodyOverflow() {
+      $('.body').css('overflow', 'auto');
+
+    }
 
     var settings = function () {
         var wh=$(window).height();
@@ -25,15 +29,18 @@ $(document).ready(function() {
         openEffect: 'fade',
         closeEffect: 'fade',
         nextEffect: 'fade',
-        prevEffect: 'fade'
+        prevEffect: 'fade',
+        padding: 0
 
     });
 
+  
+
 
     setTimeout(hidePreloader, 3000);
+    setTimeout(bodyOverflow, 3000);
     settings();
 
-    
 
 
     /*  =========== Resize ============*/

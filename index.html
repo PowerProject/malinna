@@ -17,7 +17,7 @@
 
     <title>Malinna-маникюр</title>
 </head>
-<body>
+<body class="body">
     <div class="page-loader">
         <div class="content">
             <h1 class="heading-large">Malinna</h1>
@@ -181,6 +181,7 @@
                             <p class="cost"> 60грн</p>
                         </div>
                     </div>
+                    <a class="enroll" href="">Записаться</a>
                     <hr class="end-hr">
                 <div class="col-md-1"></div>
                </div>
@@ -259,13 +260,87 @@
                 <div class="col-md-10">
                     <h2>Contacts</h2>
                     <hr>
+                    <div id="map"></div>
+                    <div class="rowContacts clearfix">
+                        <div class="col-md-6 adress text-center">
+                            <p class="title-contact">Наш адрес:</p>
+                            <p> ЖК "София" <br> ул. Л. Украинки, 6 <br> (вход с ул. И. Франка)</p>
+                        </div>
+                        <div class="col-md-6 phone text-center">
+                            <p class="title-contact"> Наши контакты:</p>
+                            <p>тел. 096-323-50-00</p>
+                            <a href="vk.com"><div id="sprite"></div></a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-1"></div>
             </section>
+
+            <!-- ---------- Footer ---------------->
+            <footer class="clearfix">
+                <div class="col-md-3"></div>
+                <div class="col-md-2">
+                    <ul>
+                        <li><a href=""> Главная</a></li>
+                        <li><a href=""> Портфолио</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 text-center">
+                    <img src="img/raspberries.png" alt="raspberries">
+                </div>
+                <div class="col-md-2">
+                    <ul>
+                        <li><a href=""> Прайс</a></li>
+                        <li><a href=""> Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3"></div>
+            </footer>
 
         </div>
 
     </div>
 
+    <!-- Google Maps-->
+    <script>
+        function initMap() {
+            var myLatLng = {lat: 50.400872, lng: 30.375282};
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 17,
+                draggable: $(window).width() > 640,
+                center: myLatLng,
+                scrollwheel: false,
+            });
+
+            var contentString = '<div id="content">'+
+                    '<div id="siteNotice">'+
+                    '</div>'+
+                    '<h1 id="firstHeading" class="firstHeading">Malinna</h1>'+
+                    '<div id="bodyContent">'+
+                    '<p> ЖК "София <br>" ' +
+                    'ул. Л. Украинки,6' +
+                    '</div>'+
+                    '</div>';
+
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+            var image = 'img/raspberries-small.png';
+
+            var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                title: 'Malinna',
+                icon: image
+            });
+            marker.addListener('click', function() {
+                infowindow.open(map, marker);
+            });
+        }
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdXm6GX3_UccW4Fgq2SgvaHg4eHWJcbw0&callback=initMap">
+    </script>
 </body>
 </html>

@@ -1,0 +1,14 @@
+//button
+/*five parametrs (background-color, border-color,
+ text-color, border-radius, text-transform) */
+@mixin button($color-bg, $color-border-button, $text-button,
+	 $radius-button, $text-transform-up) {
+  border: 2px solid $color-border-button;
+  border-radius:  $radius-button;
+  color: $text-button;
+  background: $color-bg;
+  padding: 16px 26px;
+  text-decoration: none;
+  text-transform: $text-transform-up;
+  font: 13px/13px 'LatoRegular', sans-serif;
+}
