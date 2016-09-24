@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dc2b416-d2a6-4756-954c-c42b397fc1db" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio1-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio10-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio11-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio12-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio13-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio2-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio3-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio4-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio5-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio6-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio7-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio8-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio9-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio9.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/66e1ce14890a49f59ba1c79f1bfb4092bc54c850/all.scssc" afterPath="$PROJECT_DIR$/.sass-cache/66e1ce14890a49f59ba1c79f1bfb4092bc54c850/all.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/inna1.jpg" afterPath="$PROJECT_DIR$/img/inna1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/inna1_1.jpg" afterPath="$PROJECT_DIR$/img/inna1_1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/inna2.jpg" afterPath="$PROJECT_DIR$/img/inna2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/inna3.jpg" afterPath="$PROJECT_DIR$/img/inna3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/inna3_3.jpg" afterPath="$PROJECT_DIR$/img/inna3_3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/inna4.jpg" afterPath="$PROJECT_DIR$/img/inna4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/malinna_logo.png" afterPath="$PROJECT_DIR$/img/malinna_logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/raspberries-small.png" afterPath="$PROJECT_DIR$/img/raspberries-small.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/raspberries-super-small.png" afterPath="$PROJECT_DIR$/img/raspberries-super-small.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/raspberries.png" afterPath="$PROJECT_DIR$/img/raspberries.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/raspberries_big.png" afterPath="$PROJECT_DIR$/img/raspberries_big.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/sprite-vk.png" afterPath="$PROJECT_DIR$/img/sprite-vk.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/all.css" afterPath="$PROJECT_DIR$/css/all.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
@@ -70,8 +32,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="186" column="26" selection-start-line="186" selection-start-column="26" selection-end-line="186" selection-end-column="26" />
+                <state relative-caret-position="654">
+                  <caret line="458" column="38" selection-start-line="458" selection-start-column="38" selection-end-line="458" selection-end-column="38" />
                   <folding />
                 </state>
               </provider>
@@ -85,7 +47,7 @@
             <entry file="file://$PROJECT_DIR$/sass/all.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="440">
-                  <caret line="316" column="28" selection-start-line="316" selection-start-column="28" selection-end-line="316" selection-end-column="28" />
+                  <caret line="348" column="34" selection-start-line="348" selection-start-column="34" selection-end-line="348" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
@@ -95,9 +57,9 @@
             <entry file="file://$PROJECT_DIR$/css/all.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="646">
-                  <caret line="688" column="0" selection-start-line="688" selection-start-column="0" selection-end-line="688" selection-end-column="0" />
+                  <caret line="696" column="0" selection-start-line="696" selection-start-column="0" selection-end-line="696" selection-end-column="0" />
                   <folding>
-                    <marker date="1474720057742" expanded="true" signature="17801:17802" placeholder="{...}" />
+                    <marker date="1474723071177" expanded="true" signature="18100:18101" placeholder="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -165,8 +127,8 @@
         <option value="$PROJECT_DIR$/js/common.js" />
         <option value="$PROJECT_DIR$/sass/variables.scss" />
         <option value="$PROJECT_DIR$/sass/mixins.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/all.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -362,7 +324,7 @@
       <workItem from="1474544502535" duration="4181000" />
       <workItem from="1474549555931" duration="1004000" />
       <workItem from="1474608398222" duration="7981000" />
-      <workItem from="1474693616289" duration="20516000" />
+      <workItem from="1474693616289" duration="23623000" />
     </task>
     <task id="LOCAL-00001" summary="add fonts, create file variables.css, add some img, write text to preloader">
       <created>1473945767323</created>
@@ -476,11 +438,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474717082037</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="create tabs without portfolio">
+      <created>1474720549106</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1474720549106</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77655000" />
+    <option name="totallyTimeSpent" value="80762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -533,7 +502,8 @@
     <MESSAGE value="create section contacts, create footer" />
     <MESSAGE value="create button enroll in services" />
     <MESSAGE value="done marker decription in google maps" />
-    <option name="LAST_COMMIT_MESSAGE" value="done marker decription in google maps" />
+    <MESSAGE value="create tabs without portfolio" />
+    <option name="LAST_COMMIT_MESSAGE" value="create tabs without portfolio" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -577,7 +547,7 @@
         <state relative-caret-position="7497">
           <caret line="441" column="0" selection-start-line="441" selection-start-column="0" selection-end-line="441" selection-end-column="0" />
           <folding>
-            <marker date="1474720057742" expanded="true" signature="17801:17802" placeholder="{...}" />
+            <marker date="1474723071177" expanded="true" signature="18100:18101" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -627,7 +597,7 @@
         <state relative-caret-position="5678">
           <caret line="334" column="0" selection-start-line="334" selection-start-column="0" selection-end-line="334" selection-end-column="0" />
           <folding>
-            <marker date="1474720057742" expanded="true" signature="17801:17802" placeholder="{...}" />
+            <marker date="1474723071177" expanded="true" signature="18100:18101" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -677,7 +647,7 @@
         <state relative-caret-position="4828">
           <caret line="284" column="0" selection-start-line="284" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
           <folding>
-            <marker date="1474720057742" expanded="true" signature="17801:17802" placeholder="{...}" />
+            <marker date="1474723071177" expanded="true" signature="18100:18101" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -727,7 +697,7 @@
         <state relative-caret-position="4692">
           <caret line="276" column="0" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
           <folding>
-            <marker date="1474720057742" expanded="true" signature="17801:17802" placeholder="{...}" />
+            <marker date="1474723071177" expanded="true" signature="18100:18101" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -777,7 +747,7 @@
         <state relative-caret-position="3978">
           <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
           <folding>
-            <marker date="1474720057742" expanded="true" signature="17801:17802" placeholder="{...}" />
+            <marker date="1474723071177" expanded="true" signature="18100:18101" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -827,7 +797,7 @@
         <state relative-caret-position="1428">
           <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
           <folding>
-            <marker date="1474720057742" expanded="true" signature="17801:17802" placeholder="{...}" />
+            <marker date="1474723071177" expanded="true" signature="18100:18101" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -908,9 +878,9 @@
     <entry file="file://$PROJECT_DIR$/css/all.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
-          <caret line="688" column="0" selection-start-line="688" selection-start-column="0" selection-end-line="688" selection-end-column="0" />
+          <caret line="696" column="0" selection-start-line="696" selection-start-column="0" selection-end-line="696" selection-end-column="0" />
           <folding>
-            <marker date="1474720057742" expanded="true" signature="17801:17802" placeholder="{...}" />
+            <marker date="1474723071177" expanded="true" signature="18100:18101" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -923,18 +893,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/sass/all.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="186" column="26" selection-start-line="186" selection-start-column="26" selection-end-line="186" selection-end-column="26" />
+        <state relative-caret-position="440">
+          <caret line="348" column="34" selection-start-line="348" selection-start-column="34" selection-end-line="348" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/all.scss">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="316" column="28" selection-start-line="316" selection-start-column="28" selection-end-line="316" selection-end-column="28" />
+        <state relative-caret-position="654">
+          <caret line="458" column="38" selection-start-line="458" selection-start-column="38" selection-end-line="458" selection-end-column="38" />
           <folding />
         </state>
       </provider>

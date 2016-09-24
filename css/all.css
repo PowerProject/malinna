@@ -451,78 +451,86 @@ html, body {
   -webkit-transition: width .3s, margin .3s;
   transition: width .3s, margin .3s;
 }
+/* line 346, ../sass/all.scss */
+.page-container .right-side section.portfolio .tab-content {
+  padding-top: 4%;
+}
+/* line 348, ../sass/all.scss */
+.page-container .right-side section.portfolio .tab-content .col-md-4 {
+  padding: 10px 5px 0 5px;
+}
 /* line 350, ../sass/all.scss */
-.page-container .right-side section.portfolio ul li .overflow {
+.page-container .right-side section.portfolio .tab-content .col-md-4 .overflow {
   overflow: hidden;
 }
 /* line 354, ../sass/all.scss */
-.page-container .right-side section.portfolio ul li a img {
+.page-container .right-side section.portfolio .tab-content .col-md-4 a img {
   width: 100%;
   transition: all 0.5s;
 }
 /* line 357, ../sass/all.scss */
-.page-container .right-side section.portfolio ul li a img:hover {
-  transform: scale(1.2);
+.page-container .right-side section.portfolio .tab-content .col-md-4 a img:hover {
+  transform: scale(1.1);
   opacity: 0.8;
 }
-/* line 368, ../sass/all.scss */
+/* line 369, ../sass/all.scss */
 .page-container .right-side section.contacts {
   position: relative;
   padding-top: 4%;
 }
-/* line 371, ../sass/all.scss */
+/* line 372, ../sass/all.scss */
 .page-container .right-side section.contacts #map {
   height: 360px;
   margin-top: 5%;
   box-shadow: 0px 0 3px rgba(245, 0, 87, 0.65);
 }
-/* line 376, ../sass/all.scss */
+/* line 377, ../sass/all.scss */
 .page-container .right-side section.contacts .rowContacts {
   position: relative;
   padding-top: 4%;
 }
-/* line 379, ../sass/all.scss */
+/* line 380, ../sass/all.scss */
 .page-container .right-side section.contacts .rowContacts p {
   font: 1rem "LatoLight";
   line-height: 1.6rem;
   color: rgba(90, 90, 90, 0.9);
 }
-/* line 384, ../sass/all.scss */
+/* line 385, ../sass/all.scss */
 .page-container .right-side section.contacts .rowContacts p.title-contact {
   font: 1.2rem/3rem "LatoItalic";
   font-weight: 300;
   color: #f50057;
 }
-/* line 389, ../sass/all.scss */
+/* line 390, ../sass/all.scss */
 .page-container .right-side section.contacts .rowContacts a {
   display: inline-block;
   margin-top: 15px;
 }
-/* line 393, ../sass/all.scss */
+/* line 394, ../sass/all.scss */
 .page-container .right-side section.contacts .rowContacts #sprite {
   width: 32px;
   height: 20px;
   background: url("../img/sprite-vk.png") no-repeat top;
 }
-/* line 397, ../sass/all.scss */
+/* line 398, ../sass/all.scss */
 .page-container .right-side section.contacts .rowContacts #sprite:hover {
   background-position: bottom;
 }
-/* line 402, ../sass/all.scss */
+/* line 403, ../sass/all.scss */
 .page-container .right-side section.contacts .col-md-10 {
   padding-bottom: 7%;
   border-bottom: 1px solid rgba(245, 0, 87, 0.19);
 }
-/* line 409, ../sass/all.scss */
+/* line 410, ../sass/all.scss */
 .page-container .right-side footer {
   padding-top: 6%;
   padding-bottom: 5%;
 }
-/* line 412, ../sass/all.scss */
+/* line 413, ../sass/all.scss */
 .page-container .right-side footer li {
   text-align: center;
 }
-/* line 415, ../sass/all.scss */
+/* line 416, ../sass/all.scss */
 .page-container .right-side footer a {
   font: 12px/26px "LatoRegular";
   color: rgba(90, 90, 90, 0.9);
@@ -530,27 +538,27 @@ html, body {
   text-decoration: none;
   letter-spacing: 1px;
 }
-/* line 421, ../sass/all.scss */
+/* line 422, ../sass/all.scss */
 .page-container .right-side footer a:hover {
   color: #f50057;
 }
-/* line 425, ../sass/all.scss */
+/* line 426, ../sass/all.scss */
 .page-container .right-side footer img {
   width: 55%;
   cursor: pointer;
 }
 
-/* line 434, ../sass/all.scss */
+/* line 435, ../sass/all.scss */
 a.fancybox-next, a.fancybox-prev {
   outline: none !important;
 }
 
-/* line 438, ../sass/all.scss */
+/* line 439, ../sass/all.scss */
 #firstHeading {
   font-weight: 900;
 }
 
-/* line 441, ../sass/all.scss */
+/* line 442, ../sass/all.scss */
 #bodyContent {
   overflow: hidden;
 }
@@ -634,7 +642,7 @@ a.fancybox-next, a.fancybox-prev {
   }
 }
 /* =========FlexBox===========*/
-/* line 535, ../sass/all.scss */
+/* line 536, ../sass/all.scss */
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -642,7 +650,7 @@ a.fancybox-next, a.fancybox-prev {
   align-items: center;
 }
 
-/* line 542, ../sass/all.scss */
+/* line 543, ../sass/all.scss */
 .flex {
   display: -webkit-box;
   display: -moz-box;
@@ -651,19 +659,19 @@ a.fancybox-next, a.fancybox-prev {
   display: flex;
 }
 
-/* line 550, ../sass/all.scss */
+/* line 551, ../sass/all.scss */
 .flex-column {
   -webkit-flex-direction: column;
   flex-direction: column;
 }
 
-/* line 555, ../sass/all.scss */
+/* line 556, ../sass/all.scss */
 .flex-row {
   -webkit-flex-direction: row;
   flex-direction: row;
 }
 
-/* line 561, ../sass/all.scss */
+/* line 562, ../sass/all.scss */
 .flex-center-all {
   -webkit-justify-content: center;
   justify-content: center;
@@ -671,18 +679,18 @@ a.fancybox-next, a.fancybox-prev {
 }
 
 /*============ Clearfix=========== */
-/* line 569, ../sass/all.scss */
+/* line 570, ../sass/all.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 573, ../sass/all.scss */
+/* line 574, ../sass/all.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 577, ../sass/all.scss */
+/* line 578, ../sass/all.scss */
 .clrearfix {
   zoom: 1;
 }
