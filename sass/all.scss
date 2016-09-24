@@ -375,6 +375,13 @@ a.fancybox-next, a.fancybox-prev {
   outline: none !important;
 }
 
+#firstHeading {
+  font-weight: 900;
+}
+#bodyContent {
+  overflow: hidden;
+}
+
 /* =========Keyframes===========*/
 @keyframes fade-bottom {
   0% {

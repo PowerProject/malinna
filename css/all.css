@@ -485,6 +485,16 @@ a.fancybox-next, a.fancybox-prev {
   outline: none !important;
 }
 
+/* line 378, ../sass/all.scss */
+#firstHeading {
+  font-weight: 900;
+}
+
+/* line 381, ../sass/all.scss */
+#bodyContent {
+  overflow: hidden;
+}
+
 /* =========Keyframes===========*/
 @keyframes fade-bottom {
   0% {
@@ -564,7 +574,7 @@ a.fancybox-next, a.fancybox-prev {
   }
 }
 /* =========FlexBox===========*/
-/* line 468, ../sass/all.scss */
+/* line 475, ../sass/all.scss */
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -572,7 +582,7 @@ a.fancybox-next, a.fancybox-prev {
   align-items: center;
 }
 
-/* line 475, ../sass/all.scss */
+/* line 482, ../sass/all.scss */
 .flex {
   display: -webkit-box;
   display: -moz-box;
@@ -581,19 +591,19 @@ a.fancybox-next, a.fancybox-prev {
   display: flex;
 }
 
-/* line 483, ../sass/all.scss */
+/* line 490, ../sass/all.scss */
 .flex-column {
   -webkit-flex-direction: column;
   flex-direction: column;
 }
 
-/* line 488, ../sass/all.scss */
+/* line 495, ../sass/all.scss */
 .flex-row {
   -webkit-flex-direction: row;
   flex-direction: row;
 }
 
-/* line 494, ../sass/all.scss */
+/* line 501, ../sass/all.scss */
 .flex-center-all {
   -webkit-justify-content: center;
   justify-content: center;
@@ -601,18 +611,18 @@ a.fancybox-next, a.fancybox-prev {
 }
 
 /*============ Clearfix=========== */
-/* line 502, ../sass/all.scss */
+/* line 509, ../sass/all.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 506, ../sass/all.scss */
+/* line 513, ../sass/all.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 510, ../sass/all.scss */
+/* line 517, ../sass/all.scss */
 .clrearfix {
   zoom: 1;
 }
