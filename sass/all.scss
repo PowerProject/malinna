@@ -269,9 +269,13 @@ html, body {
       margin-top: 40px;
     }
     .enroll {
-      @include button(transparent, $crimson, $crimson, 0px, uppercase);
-      &:hover {
-        @include button($crimson, $crimson, $white, 0px, uppercase);
+      padding-top: 6%;
+      padding-bottom: 3%;
+      a {
+        @include button(transparent, $crimson, $crimson, 0, uppercase);
+        &:hover {
+          @include button($crimson, $crimson, $white, 0, uppercase);
+        }
       }
     }
 
