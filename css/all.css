@@ -455,20 +455,20 @@ html, body {
 .page-container .right-side section.portfolio .tab-content {
   padding-top: 4%;
 }
-/* line 348, ../sass/all.scss */
+/* line 349, ../sass/all.scss */
 .page-container .right-side section.portfolio .tab-content .col-md-4 {
   padding: 10px 5px 0 5px;
 }
-/* line 350, ../sass/all.scss */
+/* line 351, ../sass/all.scss */
 .page-container .right-side section.portfolio .tab-content .col-md-4 .overflow {
   overflow: hidden;
 }
-/* line 354, ../sass/all.scss */
+/* line 355, ../sass/all.scss */
 .page-container .right-side section.portfolio .tab-content .col-md-4 a img {
   width: 100%;
   transition: all 0.5s;
 }
-/* line 357, ../sass/all.scss */
+/* line 358, ../sass/all.scss */
 .page-container .right-side section.portfolio .tab-content .col-md-4 a img:hover {
   transform: scale(1.1);
   opacity: 0.8;
