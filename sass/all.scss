@@ -18,13 +18,12 @@ html, body {
 
 .body {
   overflow: hidden;
+  padding-right: 0 !important;
 }
 
 .padding {
   padding: 0;
 }
-
-
 
 .page-loader {
   background-color: #f9efed;
@@ -434,7 +433,6 @@ html, body {
   }
 }
 
-
 a.fancybox-next, a.fancybox-prev {
   outline: none !important;
 }
@@ -444,6 +442,107 @@ a.fancybox-next, a.fancybox-prev {
 }
 #bodyContent {
   overflow: hidden;
+}
+
+/* ------------MODAL------------- */
+.modal {
+  .modal-dialog{
+    margin-top: 9%;
+    .modal-content {
+      border: 1px solid $crimson;
+      padding-top: 3%;
+      border-radius: 2px;
+      button.close {
+        padding-right: 15px;
+        padding-top: 4px;
+        &:hover {
+          opacity: 1;
+        }
+      }
+      h4 {
+        color: $dark;
+        font: 1.5rem $font-LatoLI;
+        padding-left: 15px;
+        padding-bottom: 15px;
+      }
+      form {
+        margin-bottom: 6%;
+        input[type="text"], input[type="tel"], textarea {
+          width: 90%;
+          margin: 0 auto;
+          color: $crimson;
+          font: 16px $font-LatoL;
+        }
+        .rowCheckbox {
+          width: 89%;
+          margin: 0 auto;
+        }
+        .checkbox {
+          text-align: left;
+          label{
+            font: 14px $font-LatoL;
+            width: 20px;
+            height: 20px;
+            display: block;
+            position: relative;
+            input[type="checkbox"] {
+              display: none;
+            }
+            input[type="checkbox"] + span {
+              position: absolute;
+              left: 0; top: 0;
+              width: 100%; height: 100%;
+              background: url('../img/sprite-checkbox1.png') no-repeat top;
+              cursor: pointer;
+            }
+            input[type="checkbox"]:checked + span {
+              background: url('../img/sprite-checkbox1.png') no-repeat bottom;
+            }
+            span.price-modal {
+              font: 15px $font-Lato;
+              color: $crimson;
+              padding-left: 3px;
+            }
+          }
+        }
+        textarea {
+          width: 90%;
+          margin: 6% auto 0;
+          font: 16px $font-LatoL;
+        }
+        .form-control:focus {
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075),
+                      0 0 6px rgba(0,0,0,0.2);
+          border-color: #7a7a7a;
+        }
+        button {
+          margin-top: 6%;
+          border: 2px solid $crimson;
+          border-radius: 0;
+          color: $crimson;
+          background: transparent;
+          padding: 14px 50px;
+          text-decoration: none;
+          text-transform: uppercase;
+          font: 15px 'LatoBoldItalic', sans-serif;
+          cursor: pointer;
+          &:hover {
+            background: $crimson;
+            color: $white;
+          }
+        }
+      }
+      input::-webkit-input-placeholder {font: 16px $font-LatoLI;}
+      input::-moz-placeholder          {font: 16px $font-LatoLI;}
+      input:-moz-placeholder           {font: 16px $font-LatoLI;}
+      input:-ms-input-placeholder      {font: 16px $font-LatoLI;}
+      textarea::-webkit-input-placeholder {font: 16px $font-LatoLI;}
+      textarea::-moz-placeholder          {font: 16px $font-LatoLI;}
+      textarea:-moz-placeholder           {font: 16px $font-LatoLI;}
+      textarea:-ms-input-placeholder      {font: 16px $font-LatoLI;}
+    }
+  }
+
 }
 
 /* =========Keyframes===========*/

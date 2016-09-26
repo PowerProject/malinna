@@ -90,7 +90,7 @@
                         главное чтоб было понятно  и красиво</p>
                         <img src="img/raspberries.png" alt="raspberry-clipart">
                         <div class="text-center enroll">
-                            <a href="">Заказать услугу</a>
+                            <a data-toggle="modal" data-target="#myModal1">Заказать услугу</a>
                         </div>
                     </div>
                     <div class="text-center scroll">
@@ -186,7 +186,7 @@
                         </div>
                     </div>
                     <div class="text-center enroll">
-                        <a href="">Заказать услугу</a>
+                        <a data-toggle="modal" data-target="#myModal1">Заказать услугу</a>
                     </div>
                 <div class="col-md-1"></div>
                </div>
@@ -565,7 +565,50 @@
             </footer>
 
         </div>
+    </div>
 
+
+
+    <!-- ========== MODAL =========== -->
+    <div id="myModal1" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="img/close.png" alt=""></button>
+                <h4 class="modal-title">Заказать услугу</h4>
+                <form role="form" id="question-form" method="post">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name"  required placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control" name="phone" required placeholder="Ваш телефон">
+                    </div>
+                    <div class="rowCheckbox clearfix">
+                        <div class="col-md-6 padding">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"><span></span> Женский маникюр <span class="price-modal"> 60 грн</span>
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"><span></span> Женский маникюр <span class="price-modal"> 60 грн</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-6 padding">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"><span></span> Женский маникюр <span class="price-modal"> 60 грн</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <textarea class="form-control" rows="3" name="date" placeholder="Дата и время"></textarea>
+                    <button type="submit" class="btn btn-default text-center">Записаться</button>
+                </form>
+            </div>
+        </div>
     </div>
 
     <!-- Google Maps-->
