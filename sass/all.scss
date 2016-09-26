@@ -154,6 +154,9 @@ html, body {
         }
       }
       .head {
+        .content {
+          top: 32%;
+        }
         .head-content {
           animation: animation-slide-left 1s 2.5s;
           -webkit-animation-fill-mode: both;
