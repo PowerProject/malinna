@@ -58,9 +58,11 @@ html, body {
 header {
   position: absolute;
   width: 100%;
-  padding: 30px 0 10px 0;
+  padding:0 10px 0;
   z-index: 6;
-
+  .col-md-6:nth-child(1) {
+    padding-top: 25px;
+  }
   .navMenu {
     @media (max-width: 991px) {
      text-align: right;
@@ -80,26 +82,39 @@ header {
       }
     }
     ul {
+      padding: 30px 0;
       li {
         display: inline;
+        a {
+          text-transform: uppercase;
+          font: 12px $font-Lato;
+          color: $grey;
+          background: transparent;
+          font-weight: 400;
+          letter-spacing: 2px;
+          padding: 10px 13px;
+          text-decoration: none;
+        }
+      }
+      li.active a {
+        color: $crimson;
       }
     }
   }
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   header {
     .navMenu {
       .icon-menu {
         display: block;
       }
-
-
         ul.sidebar {
           position: fixed;
           top: 0;
           padding-right: 20px;
+          padding-top: 20px;
           height: 100%;
           width: 200px;
           max-width: 100%;
@@ -107,9 +122,6 @@ header {
           background: $white;
           right:-200px;
           transition: all 1s ease-in-out;
-
-
-
           li {
             display: block;
             a{
@@ -117,11 +129,9 @@ header {
             }
           }
         }
-
       .sidebar.active {
         right: 0;
       }
-
       .overlay-sidebar {
         position: fixed;
         top:0;
@@ -134,8 +144,40 @@ header {
       }
     }
   }
+
 }
 
+
+@media (min-width: 768px) and (max-width: 991px) {
+  header .navMenu ul li a {
+    color: $white;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .head {
+    h1 {
+      color: $white;
+    }
+    p#head-description {
+      color: $white;
+    }
+    .page-container .right-side .enroll a#enroll {
+      @include button($crimson, $crimson, $white, 0, uppercase);
+      border: 2px solid $crimson;
+      border-radius:  0;
+      color: $crimson;
+      background: $crimson;
+      padding: 16px 40px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font: 15px 'LatoBoldItalic', sans-serif;
+      cursor: pointer;
+    }
+
+  }
+}
 /*
 header {
   position: absolute;
@@ -154,17 +196,7 @@ header {
       ul.navbar-nav {
         float: none;
         display: inline-block;
-        li {
-          a {
-            text-transform: uppercase;
-            font: 12px $font-Lato;
-            color: $grey;
-            background: transparent;
-            font-weight: 400;
-            letter-spacing: 2px;
-            padding: 10px 13px;
-          }
-        }
+
         li.active {
           background: transparent;
           a {
@@ -462,6 +494,23 @@ header {
     .fancybox-lock .fancybox-overlay {
       overflow: hidden !important;
     }
+
+    @media (min-width: 992px) and(max-width: 1050px) {
+      .nav-pills {
+        li:last-child {
+          float: none;
+        }
+      }
+
+    }
+    @media (max-width: 991px) {
+      .rowPrices:last-child {
+        div {
+          text-align: left !important;
+        }
+      }
+    }
+
     /* --------------Section Contacts ---------------*/
     section.contacts {
       position: relative;
