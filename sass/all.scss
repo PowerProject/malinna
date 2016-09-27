@@ -94,28 +94,34 @@ header {
       .icon-menu {
         display: block;
       }
-      ul {
-        position: fixed;
-        right: 0;
-        top: 0;
-        padding-right: 20px;
-        height: 100%;
-        width: 200px;
-        max-width: 100%;
-        box-shadow: 0 0 7px -1px rgba(0, 0, 0, 0.1);
-        background: $white;
-        display: none;
-        transform: translateX(200px);
-        transition: all 1s ease-in-out;
 
 
-        li {
-          display: block;
-          a{
+        ul.sidebar {
+          position: fixed;
+          top: 0;
+          padding-right: 20px;
+          height: 100%;
+          width: 200px;
+          max-width: 100%;
+          box-shadow: 0 0 7px -1px rgba(0, 0, 0, 0.1);
+          background: $white;
+          right:-200px;
+          transition: all 1s ease-in-out;
+
+
+
+          li {
             display: block;
+            a{
+              display: block;
+            }
           }
         }
+
+      .sidebar.active {
+        right: 0;
       }
+
       .overlay-sidebar {
         position: fixed;
         top:0;

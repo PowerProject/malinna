@@ -24,25 +24,22 @@ $(document).ready(function() {
     setTimeout(bodyOverflow, 3000);
     settings();
 
-    $('.icon-menu').on('click',function() {
 
+    // SideBar
+
+    $('.icon-menu').click(function() {
+        $('.sidebar').toggleClass('active');
         $('.navMenu .overlay-sidebar').css('display', 'block');
-        $(' .navMenu ul').css('transform', 'translateX(-200px)');
+
     });
 
-    $(".overlay-sidebar").click(function(e) {
-        if($(e.target).closest("ul").length==0) {
+    $(".overlay-sidebar, a").click(function(e) {
+            $('.sidebar').removeClass('active');
             $(".overlay-sidebar").css({"display":"none"});
-            $(' .navMenu ul').css('transform', 'translateX(200px)');
-
-        }
-    });
-
-    $(".navMenu a").click(function(e) {
-            $(".overlay-sidebar").css({"display":"none"});
-            $(' .navMenu ul').css('transform', 'translateX(200px)');
 
     });
+    //  End SideBar
+
 
 
 
