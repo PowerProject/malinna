@@ -55,12 +55,77 @@ html, body {
   }
 }
 
+header {
+  position: absolute;
+  width: 100%;
+  padding: 30px 0 10px 0;
+  z-index: 6;
+  .navMenu {
+    @media (max-width: 991px) {
+     text-align: right;
+
+    }
+    ul {
+      li {
+        display: inline;
+      }
+    }
+  }
+
+}
+
+
+/*
+header {
+  position: absolute;
+  width: 100%;
+  padding: 30px 0 10px 0;
+  z-index: 6;
+  .navbar {
+    border: none;
+    background: transparent;
+    margin-bottom: 0;
+    animation: fade-low 0.5s 2.9s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    .nav-container {
+      text-align: center;
+      ul.navbar-nav {
+        float: none;
+        display: inline-block;
+        li {
+          a {
+            text-transform: uppercase;
+            font: 12px $font-Lato;
+            color: $grey;
+            background: transparent;
+            font-weight: 400;
+            letter-spacing: 2px;
+            padding: 10px 13px;
+          }
+        }
+        li.active {
+          background: transparent;
+          a {
+            color: $crimson;
+          }
+        }
+      }
+    }
+  }
+}
+*/
 .page-container {
   backface-visibility: hidden;
   .left-side {
     animation: animation-slide-right 1s 2.5s;
     position: fixed;
     width: 50%;
+    z-index: 1;
+    @media (max-width: 991px) {
+      position: absolute;
+      width: 100%;
+    }
     .overlay-panel {
       position: absolute;
       top: 0;
@@ -112,46 +177,13 @@ html, body {
     background: $light;
     float: right;
     width: 50%;
+    @media (max-width: 991px) {
+      width: 100%;
+    }
     section.full-height {
       position: relative;
       height: 100vh;
-      header {
-        position: relative;
-        padding: 30px 0 10px 0;
-        z-index: 6;
-        .navbar {
-          border: none;
-          background: transparent;
-          margin-bottom: 0;
-          animation: fade-low 0.5s 2.9s;
-          -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-          .nav-container {
-            text-align: center;
-            ul.navbar-nav {
-              float: none;
-              display: inline-block;
-              li {
-                a {
-                  text-transform: uppercase;
-                  font: 12px $font-Lato;
-                  color: $grey;
-                  background: transparent;
-                  font-weight: 400;
-                  letter-spacing: 2px;
-                  padding: 10px 13px;
-                }
-              }
-              li.active {
-                background: transparent;
-                a {
-                  color: $crimson;
-                }
-              }
-            }
-          }
-        }
-      }
+      z-index: 2;
       .head {
         .content {
           top: 32%;
