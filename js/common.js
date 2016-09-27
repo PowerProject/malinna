@@ -25,14 +25,23 @@ $(document).ready(function() {
     settings();
 
     $('.icon-menu').on('click',function() {
-        $('.navMenu .overlay-sidebar, .navMenu ul').css('display', 'block');
+
+        $('.navMenu .overlay-sidebar').css('display', 'block');
+        $(' .navMenu ul').css('transform', 'translateX(-200px)');
     });
 
     $(".overlay-sidebar").click(function(e) {
         if($(e.target).closest("ul").length==0) {
             $(".overlay-sidebar").css({"display":"none"});
-            $('ul').css("animation","translate 2s reverse");
+            $(' .navMenu ul').css('transform', 'translateX(200px)');
+
         }
+    });
+
+    $(".navMenu a").click(function(e) {
+            $(".overlay-sidebar").css({"display":"none"});
+            $(' .navMenu ul').css('transform', 'translateX(200px)');
+
     });
 
 

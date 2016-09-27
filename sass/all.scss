@@ -105,7 +105,9 @@ header {
         box-shadow: 0 0 7px -1px rgba(0, 0, 0, 0.1);
         background: $white;
         display: none;
-        animation:translate 0.5s;
+        transform: translateX(200px);
+        transition: all 1s ease-in-out;
+
 
         li {
           display: block;
