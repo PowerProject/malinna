@@ -366,7 +366,9 @@ html, body {
         }
       }
     }
-
+    .fancybox-lock .fancybox-overlay {
+      overflow: hidden !important;
+    }
     /* --------------Section Contacts ---------------*/
     section.contacts {
       position: relative;
@@ -374,7 +376,7 @@ html, body {
       #map {
         height: 360px;
         margin-top: 5%;
-        box-shadow: 0px 0 3px rgba(245,0,87,0.65);
+        box-shadow: 0 0 3px rgba(245,0,87,0.65);
       }
       .rowContacts {
         position: relative;
@@ -481,22 +483,23 @@ a.fancybox-next, a.fancybox-prev {
           text-align: left;
           label{
             font: 14px $font-LatoL;
-            width: 20px;
-            height: 20px;
-            display: block;
-            position: relative;
+            cursor: pointer;
+            padding-left: 0;
             input[type="checkbox"] {
               display: none;
             }
             input[type="checkbox"] + span {
-              position: absolute;
-              left: 0; top: 0;
-              width: 100%; height: 100%;
-              background: url('../img/sprite-checkbox1.png') no-repeat top;
-              cursor: pointer;
+              margin-right: 8px;
+              float: left;
+              width: 20px;
+              height: 20px;
+              display: block;
+              position: relative;
+              background: url('../img/sprite-checkbox.png') no-repeat top;
+
             }
             input[type="checkbox"]:checked + span {
-              background: url('../img/sprite-checkbox1.png') no-repeat bottom;
+              background: url('../img/sprite-checkbox.png') no-repeat bottom;
             }
             span.price-modal {
               font: 15px $font-Lato;

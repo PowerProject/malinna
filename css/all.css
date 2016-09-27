@@ -480,64 +480,68 @@ html, body {
   transform: scale(1.1);
   opacity: 0.8;
 }
-/* line 371, ../sass/all.scss */
+/* line 369, ../sass/all.scss */
+.page-container .right-side .fancybox-lock .fancybox-overlay {
+  overflow: hidden !important;
+}
+/* line 373, ../sass/all.scss */
 .page-container .right-side section.contacts {
   position: relative;
   padding-top: 4%;
 }
-/* line 374, ../sass/all.scss */
+/* line 376, ../sass/all.scss */
 .page-container .right-side section.contacts #map {
   height: 360px;
   margin-top: 5%;
-  box-shadow: 0px 0 3px rgba(245, 0, 87, 0.65);
+  box-shadow: 0 0 3px rgba(245, 0, 87, 0.65);
 }
-/* line 379, ../sass/all.scss */
+/* line 381, ../sass/all.scss */
 .page-container .right-side section.contacts .rowContacts {
   position: relative;
   padding-top: 4%;
 }
-/* line 382, ../sass/all.scss */
+/* line 384, ../sass/all.scss */
 .page-container .right-side section.contacts .rowContacts p {
   font: 1rem "LatoLight";
   line-height: 1.6rem;
   color: rgba(90, 90, 90, 0.9);
 }
-/* line 387, ../sass/all.scss */
+/* line 389, ../sass/all.scss */
 .page-container .right-side section.contacts .rowContacts p.title-contact {
   font: 1.2rem/3rem "LatoItalic";
   font-weight: 300;
   color: #f50057;
 }
-/* line 392, ../sass/all.scss */
+/* line 394, ../sass/all.scss */
 .page-container .right-side section.contacts .rowContacts a {
   display: inline-block;
   margin-top: 15px;
 }
-/* line 396, ../sass/all.scss */
+/* line 398, ../sass/all.scss */
 .page-container .right-side section.contacts .rowContacts #sprite {
   width: 32px;
   height: 20px;
   background: url("../img/sprite-vk.png") no-repeat top;
 }
-/* line 400, ../sass/all.scss */
+/* line 402, ../sass/all.scss */
 .page-container .right-side section.contacts .rowContacts #sprite:hover {
   background-position: bottom;
 }
-/* line 405, ../sass/all.scss */
+/* line 407, ../sass/all.scss */
 .page-container .right-side section.contacts .col-md-10 {
   padding-bottom: 7%;
   border-bottom: 1px solid rgba(245, 0, 87, 0.19);
 }
-/* line 412, ../sass/all.scss */
+/* line 414, ../sass/all.scss */
 .page-container .right-side footer {
   padding-top: 6%;
   padding-bottom: 5%;
 }
-/* line 415, ../sass/all.scss */
+/* line 417, ../sass/all.scss */
 .page-container .right-side footer li {
   text-align: center;
 }
-/* line 418, ../sass/all.scss */
+/* line 420, ../sass/all.scss */
 .page-container .right-side footer a {
   font: 12px/26px "LatoRegular";
   color: rgba(90, 90, 90, 0.9);
@@ -545,85 +549,83 @@ html, body {
   text-decoration: none;
   letter-spacing: 1px;
 }
-/* line 424, ../sass/all.scss */
+/* line 426, ../sass/all.scss */
 .page-container .right-side footer a:hover {
   color: #f50057;
 }
-/* line 428, ../sass/all.scss */
+/* line 430, ../sass/all.scss */
 .page-container .right-side footer img {
   width: 55%;
   cursor: pointer;
 }
 
-/* line 436, ../sass/all.scss */
+/* line 438, ../sass/all.scss */
 a.fancybox-next, a.fancybox-prev {
   outline: none !important;
 }
 
-/* line 440, ../sass/all.scss */
+/* line 442, ../sass/all.scss */
 #firstHeading {
   font-weight: 900;
 }
 
-/* line 443, ../sass/all.scss */
+/* line 445, ../sass/all.scss */
 #bodyContent {
   overflow: hidden;
 }
 
 /* ------------MODAL------------- */
-/* line 449, ../sass/all.scss */
+/* line 451, ../sass/all.scss */
 .modal .modal-dialog {
   margin-top: 9%;
 }
-/* line 451, ../sass/all.scss */
+/* line 453, ../sass/all.scss */
 .modal .modal-dialog .modal-content {
   border: 1px solid #f50057;
   padding-top: 3%;
   border-radius: 2px;
 }
-/* line 455, ../sass/all.scss */
+/* line 457, ../sass/all.scss */
 .modal .modal-dialog .modal-content button.close {
   padding-right: 15px;
   padding-top: 4px;
 }
-/* line 458, ../sass/all.scss */
+/* line 460, ../sass/all.scss */
 .modal .modal-dialog .modal-content button.close:hover {
   opacity: 1;
 }
-/* line 462, ../sass/all.scss */
+/* line 464, ../sass/all.scss */
 .modal .modal-dialog .modal-content h4 {
   color: #212121;
   font: 1.5rem "LatoLightItalic";
   padding-left: 15px;
   padding-bottom: 15px;
 }
-/* line 468, ../sass/all.scss */
+/* line 470, ../sass/all.scss */
 .modal .modal-dialog .modal-content form {
   margin-bottom: 6%;
 }
-/* line 470, ../sass/all.scss */
+/* line 472, ../sass/all.scss */
 .modal .modal-dialog .modal-content form input[type="text"], .modal .modal-dialog .modal-content form input[type="tel"], .modal .modal-dialog .modal-content form textarea {
   width: 90%;
   margin: 0 auto;
   color: #f50057;
   font: 16px "LatoLight";
 }
-/* line 476, ../sass/all.scss */
+/* line 478, ../sass/all.scss */
 .modal .modal-dialog .modal-content form .rowCheckbox {
   width: 89%;
   margin: 0 auto;
 }
-/* line 480, ../sass/all.scss */
+/* line 482, ../sass/all.scss */
 .modal .modal-dialog .modal-content form .checkbox {
   text-align: left;
 }
-/* line 482, ../sass/all.scss */
+/* line 484, ../sass/all.scss */
 .modal .modal-dialog .modal-content form .checkbox label {
   font: 14px "LatoLight";
-  width: 20px;
-  height: 20px;
-  display: block;
-  position: relative;
+  cursor: pointer;
+  padding-left: 0;
 }
 /* line 488, ../sass/all.scss */
 .modal .modal-dialog .modal-content form .checkbox label input[type="checkbox"] {
@@ -631,36 +633,36 @@ a.fancybox-next, a.fancybox-prev {
 }
 /* line 491, ../sass/all.scss */
 .modal .modal-dialog .modal-content form .checkbox label input[type="checkbox"] + span {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url("../img/sprite-checkbox1.png") no-repeat top;
-  cursor: pointer;
-}
-/* line 498, ../sass/all.scss */
-.modal .modal-dialog .modal-content form .checkbox label input[type="checkbox"]:checked + span {
-  background: url("../img/sprite-checkbox1.png") no-repeat bottom;
+  margin-right: 8px;
+  float: left;
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: relative;
+  background: url("../img/sprite-checkbox.png") no-repeat top;
 }
 /* line 501, ../sass/all.scss */
+.modal .modal-dialog .modal-content form .checkbox label input[type="checkbox"]:checked + span {
+  background: url("../img/sprite-checkbox.png") no-repeat bottom;
+}
+/* line 504, ../sass/all.scss */
 .modal .modal-dialog .modal-content form .checkbox label span.price-modal {
   font: 15px "LatoRegular";
   color: #f50057;
   padding-left: 3px;
 }
-/* line 508, ../sass/all.scss */
+/* line 511, ../sass/all.scss */
 .modal .modal-dialog .modal-content form textarea {
   width: 90%;
   margin: 6% auto 0;
   font: 16px "LatoLight";
 }
-/* line 513, ../sass/all.scss */
+/* line 516, ../sass/all.scss */
 .modal .modal-dialog .modal-content form .form-control:focus {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px rgba(0, 0, 0, 0.2);
   border-color: #7a7a7a;
 }
-/* line 518, ../sass/all.scss */
+/* line 521, ../sass/all.scss */
 .modal .modal-dialog .modal-content form button {
   margin-top: 6%;
   border: 2px solid #f50057;
@@ -673,40 +675,40 @@ a.fancybox-next, a.fancybox-prev {
   font: 15px 'LatoBoldItalic', sans-serif;
   cursor: pointer;
 }
-/* line 529, ../sass/all.scss */
+/* line 532, ../sass/all.scss */
 .modal .modal-dialog .modal-content form button:hover {
   background: #f50057;
   color: #fff;
 }
-/* line 535, ../sass/all.scss */
+/* line 538, ../sass/all.scss */
 .modal .modal-dialog .modal-content input::-webkit-input-placeholder {
   font: 16px "LatoLightItalic";
 }
-/* line 536, ../sass/all.scss */
+/* line 539, ../sass/all.scss */
 .modal .modal-dialog .modal-content input::-moz-placeholder {
   font: 16px "LatoLightItalic";
 }
-/* line 537, ../sass/all.scss */
+/* line 540, ../sass/all.scss */
 .modal .modal-dialog .modal-content input:-moz-placeholder {
   font: 16px "LatoLightItalic";
 }
-/* line 538, ../sass/all.scss */
+/* line 541, ../sass/all.scss */
 .modal .modal-dialog .modal-content input:-ms-input-placeholder {
   font: 16px "LatoLightItalic";
 }
-/* line 539, ../sass/all.scss */
+/* line 542, ../sass/all.scss */
 .modal .modal-dialog .modal-content textarea::-webkit-input-placeholder {
   font: 16px "LatoLightItalic";
 }
-/* line 540, ../sass/all.scss */
+/* line 543, ../sass/all.scss */
 .modal .modal-dialog .modal-content textarea::-moz-placeholder {
   font: 16px "LatoLightItalic";
 }
-/* line 541, ../sass/all.scss */
+/* line 544, ../sass/all.scss */
 .modal .modal-dialog .modal-content textarea:-moz-placeholder {
   font: 16px "LatoLightItalic";
 }
-/* line 542, ../sass/all.scss */
+/* line 545, ../sass/all.scss */
 .modal .modal-dialog .modal-content textarea:-ms-input-placeholder {
   font: 16px "LatoLightItalic";
 }
@@ -790,7 +792,7 @@ a.fancybox-next, a.fancybox-prev {
   }
 }
 /* =========FlexBox===========*/
-/* line 638, ../sass/all.scss */
+/* line 641, ../sass/all.scss */
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -798,7 +800,7 @@ a.fancybox-next, a.fancybox-prev {
   align-items: center;
 }
 
-/* line 645, ../sass/all.scss */
+/* line 648, ../sass/all.scss */
 .flex {
   display: -webkit-box;
   display: -moz-box;
@@ -807,19 +809,19 @@ a.fancybox-next, a.fancybox-prev {
   display: flex;
 }
 
-/* line 653, ../sass/all.scss */
+/* line 656, ../sass/all.scss */
 .flex-column {
   -webkit-flex-direction: column;
   flex-direction: column;
 }
 
-/* line 658, ../sass/all.scss */
+/* line 661, ../sass/all.scss */
 .flex-row {
   -webkit-flex-direction: row;
   flex-direction: row;
 }
 
-/* line 664, ../sass/all.scss */
+/* line 667, ../sass/all.scss */
 .flex-center-all {
   -webkit-justify-content: center;
   justify-content: center;
@@ -827,18 +829,18 @@ a.fancybox-next, a.fancybox-prev {
 }
 
 /*============ Clearfix=========== */
-/* line 672, ../sass/all.scss */
+/* line 675, ../sass/all.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 676, ../sass/all.scss */
+/* line 679, ../sass/all.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 680, ../sass/all.scss */
+/* line 683, ../sass/all.scss */
 .clrearfix {
   zoom: 1;
 }
