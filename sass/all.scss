@@ -60,10 +60,24 @@ header {
   width: 100%;
   padding: 30px 0 10px 0;
   z-index: 6;
+
   .navMenu {
     @media (max-width: 991px) {
      text-align: right;
-
+    }
+    .icon-menu {
+      display: none;
+      height: 33px;
+      width: 37px;
+      float: right;
+      padding:5px;
+      cursor: pointer;
+      .divide {
+        display: block;
+        height: 2px;
+        margin: 4px 0;
+        background: $crimson;
+      }
     }
     ul {
       li {
@@ -74,6 +88,45 @@ header {
 
 }
 
+@media (max-width: 768px) {
+  header {
+    .navMenu {
+      .icon-menu {
+        display: block;
+      }
+      ul {
+        position: fixed;
+        right: 0;
+        top: 0;
+        padding-right: 20px;
+        height: 100%;
+        width: 200px;
+        max-width: 100%;
+        box-shadow: 0 0 7px -1px rgba(0, 0, 0, 0.1);
+        background: $white;
+        display: none;
+        animation:translate 0.5s;
+
+        li {
+          display: block;
+          a{
+            display: block;
+          }
+        }
+      }
+      .overlay-sidebar {
+        position: fixed;
+        top:0;
+        left:0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        background: rgba(255,255,255,0.6);
+        display: none;
+      }
+    }
+  }
+}
 
 /*
 header {
@@ -665,6 +718,15 @@ a.fancybox-next, a.fancybox-prev {
   }
   100% {
     transform: scale(1.1);
+  }
+}
+
+@keyframes translate {
+  0% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0px);
   }
 }
 

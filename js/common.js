@@ -2,6 +2,8 @@
 
 $(document).ready(function() {
 
+
+
     function hidePreloader() {
         $('.page-loader').css('display','none');
     }
@@ -17,6 +19,23 @@ $(document).ready(function() {
         $('.left-side').css({'height': wh + 'px'});
         $('.item').css({'height': wh + 'px'});
     };
+
+    setTimeout(hidePreloader, 3000);
+    setTimeout(bodyOverflow, 3000);
+    settings();
+
+    $('.icon-menu').on('click',function() {
+        $('.navMenu .overlay-sidebar, .navMenu ul').css('display', 'block');
+    });
+
+    $(".overlay-sidebar").click(function(e) {
+        if($(e.target).closest("ul").length==0) {
+            $(".overlay-sidebar").css({"display":"none"});
+            $('ul').css("animation","translate 2s reverse");
+        }
+    });
+
+
 
     //Bootstrap Slider
     $('.carousel').carousel({
@@ -34,12 +53,8 @@ $(document).ready(function() {
 
     });
 
-  
 
 
-    setTimeout(hidePreloader, 3000);
-    setTimeout(bodyOverflow, 3000);
-    settings();
 
 
 
