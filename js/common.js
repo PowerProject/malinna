@@ -55,6 +55,8 @@ $(document).ready(function() {
 
 
 
+
+
     //Bootstrap Slider
     $('.carousel').carousel({
         interval: 12000,
@@ -70,6 +72,8 @@ $(document).ready(function() {
         padding: 0
 
     });
+
+
 
 
 
