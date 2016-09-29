@@ -2,9 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dc2b416-d2a6-4756-954c-c42b397fc1db" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/send.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/inna1_1.jpg" afterPath="$PROJECT_DIR$/img/inna1_1.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/inna3_3.jpg" afterPath="$PROJECT_DIR$/img/inna3_3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio14.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio15.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio15.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio16.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio16.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio17.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio17.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio18.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio18.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio19.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio19.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio20.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio20.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio21.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio21.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio22.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio22.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio23.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio23.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio24.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio24.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio25.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio25.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio26.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio26.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio27.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio27.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio28.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio28.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio29.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio29.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio30.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio30.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio31.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio31.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio32.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio32.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio33.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio33.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio34.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio34.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio35.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio35.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio36.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio36.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio37.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio37.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio38.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio38.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio39.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio39.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio40.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio40.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio41.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio41.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio42.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio42.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio43.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio43.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio44.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio44.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio45.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio45.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio46.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio46.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio47.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio47.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio48.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio48.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio49.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio49.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio50.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio50.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio51.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio51.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio52.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio52.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/small/portfolio53.jpg" afterPath="$PROJECT_DIR$/img/portfolio/small/portfolio53.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common.js" afterPath="$PROJECT_DIR$/js/common.js" />
     </list>
     <ignored path="malinna.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,8 +127,8 @@
           <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/common.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                <state relative-caret-position="187">
+                  <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -167,6 +210,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -229,7 +273,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,7 +388,8 @@
       <workItem from="1475003761715" duration="8845000" />
       <workItem from="1475040056313" duration="2339000" />
       <workItem from="1475042453324" duration="812000" />
-      <workItem from="1475043939973" duration="1633000" />
+      <workItem from="1475043939973" duration="1893000" />
+      <workItem from="1475126592725" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="add fonts, create file variables.css, add some img, write text to preloader">
       <created>1473945767323</created>
@@ -557,17 +601,24 @@
       <option name="project" value="LOCAL" />
       <updated>1475044998327</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="replace img in slideshow">
+      <created>1475045582466</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1475045582466</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121607000" />
+    <option name="totallyTimeSpent" value="121881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11205074" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -598,7 +649,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add bootstrap slider" />
     <MESSAGE value="add logo" />
     <MESSAGE value="try to do fade animation" />
     <MESSAGE value="add  fade animation for sliders" />
@@ -623,7 +673,8 @@
     <MESSAGE value="responsive images, white color in head" />
     <MESSAGE value="add img" />
     <MESSAGE value="replace img" />
-    <option name="LAST_COMMIT_MESSAGE" value="replace img" />
+    <MESSAGE value="replace img in slideshow" />
+    <option name="LAST_COMMIT_MESSAGE" value="replace img in slideshow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -634,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -682,7 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -730,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -778,7 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -826,7 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -874,7 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,7 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -963,7 +1007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1009,8 +1052,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding />
         </state>
       </provider>

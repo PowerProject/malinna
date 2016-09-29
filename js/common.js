@@ -13,16 +13,10 @@ $(document).ready(function() {
 
     }
 
-    var settings = function () {
-        var wh=$(window).height();
-        $('.page-loader').css({'height': wh + 'px'});
-        $('.left-side').css({'height': wh + 'px'});
-        $('.item').css({'height': wh + 'px'});
-    };
+
 
     setTimeout(hidePreloader, 3000);
     setTimeout(bodyOverflow, 3000);
-    settings();
 
 
     // SideBar
@@ -55,8 +49,6 @@ $(document).ready(function() {
 
 
 
-
-
     //Bootstrap Slider
     $('.carousel').carousel({
         interval: 12000,
@@ -78,8 +70,6 @@ $(document).ready(function() {
 
 
 
-
-
     /*  =========== Resize ============*/
     $(window).resize(function() {
         settings();
@@ -92,4 +82,5 @@ $(document).ready(function() {
 
 
     });
+
 });
