@@ -489,7 +489,7 @@ settings();
                         <div class="col-md-6 phone text-center">
                             <p class="title-contact"> Наши контакты:</p>
                             <p>тел. 096-323-50-00</p>
-                            <a href="vk.com"><div id="sprite"></div></a>
+                            <a href="https://vk.com/studio_malinna"><div id="sprite"></div></a>
                         </div>
                     </div>
                 </div>

@@ -242,7 +242,7 @@ header .navMenu ul li.active a {
     border-radius: 0;
     color: #fff;
     background: #f50057;
-    padding: 16px 40px;
+    padding: 16px 40px 14px;
     text-decoration: none;
     text-transform: uppercase;
     font: 15px 'LatoBoldItalic', sans-serif;
@@ -470,7 +470,7 @@ header .navMenu ul li.active a {
   border-radius: 0;
   color: #f50057;
   background: transparent;
-  padding: 16px 40px;
+  padding: 16px 40px 14px;
   text-decoration: none;
   text-transform: uppercase;
   font: 15px 'LatoBoldItalic', sans-serif;
@@ -482,7 +482,7 @@ header .navMenu ul li.active a {
   border-radius: 0;
   color: #fff;
   background: #f50057;
-  padding: 16px 40px;
+  padding: 16px 40px 14px;
   text-decoration: none;
   text-transform: uppercase;
   font: 15px 'LatoBoldItalic', sans-serif;
@@ -991,4 +991,9 @@ a.fancybox-next, a.fancybox-prev {
 /* line 834, ../sass/all.scss */
 .clrearfix {
   zoom: 1;
+}
+
+/* line 839, ../sass/all.scss */
+.fancybox-lock {
+  overflow: auto !important;
 }
