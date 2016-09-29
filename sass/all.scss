@@ -55,18 +55,22 @@ html, body {
   }
 }
 
+/*-------------- HEADER----------*/
 header {
   position: absolute;
   width: 100%;
   padding:0 10px 0;
   z-index: 6;
   .col-md-6:nth-child(1) {
-    padding-top: 25px;
+    @media (min-width: 992px) {
+      padding-top: 25px;
+    }
   }
   .navMenu {
     @media (max-width: 991px) {
      text-align: right;
     }
+    animation: fade-bottom 1s;
     .icon-menu {
       display: none;
       height: 33px;
@@ -77,7 +81,7 @@ header {
       .divide {
         display: block;
         height: 2px;
-        margin: 4px 0;
+        margin: 3px 0 4px 0;
         background: $crimson;
       }
     }
@@ -96,7 +100,7 @@ header {
           text-decoration: none;
         }
       }
-      li.active a {
+      a.active  {
         color: $crimson;
       }
     }
@@ -104,11 +108,20 @@ header {
 
 }
 
-@media (max-width: 767px) {
+/* Media */
+@media (max-width: 991px) {
   header {
     .navMenu {
       .icon-menu {
         display: block;
+        border: 2px solid crimson;
+        border-radius: 3px;
+        margin-right: 3%;
+        margin-top: 3%;
+        background: #fffcff;
+        .divide:last-child {
+
+        }
       }
         ul.sidebar {
           position: fixed;
@@ -146,15 +159,14 @@ header {
   }
 
 }
-
-
+/*
 @media (min-width: 768px) and (max-width: 991px) {
   header .navMenu ul li a {
     color: $white;
     font-family: $font-LatoB;
   }
 }
-
+*/
 
 @media (max-width: 991px) {
   .head {
@@ -167,7 +179,6 @@ header {
     }
      .enroll a#enroll {
       @include button($crimson, $crimson, $white, 0, uppercase);
-
     }
   }
 }
@@ -181,16 +192,19 @@ header {
 }
 
 
+/* End media */
+
 .page-container {
   backface-visibility: hidden;
   .left-side {
     animation: animation-slide-right 1s 2.5s;
     position: fixed;
     width: 50%;
-    z-index: 1;
+    z-index: 10;
     @media (max-width: 991px) {
       position: absolute;
       width: 100%;
+      z-index: 1;
     }
     .overlay-panel {
       position: absolute;
@@ -199,11 +213,28 @@ header {
       left: 0;
       right: 0;
       padding: 20px;
+      z-index: 999999;
+      &::after {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        padding-left: 20px;
+        box-shadow: -10px 0px #FFFCFFB3 inset;
+        z-index: 999999;
+        content: '';
+        box-shadow: -9px 0px 9px #FFFCFF inset;
+        @media (max-width: 991px) {
+         box-shadow: none;
+        }
+      }
       img {
         position: absolute;
         z-index: 1;
       }
     }
+
+    /*------------SlideShow-------------*/
     .slideshow {
       .carousel-inner {
         .item {
@@ -698,6 +729,15 @@ a.fancybox-next, a.fancybox-prev {
   }
   100% {
     opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes top-header {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
     transform: translateY(0);
   }
 }

@@ -66,10 +66,6 @@ $(document).ready(function() {
     });
 
 
-
-
-
-
     /*  =========== Resize ============*/
     $(window).resize(function() {
         settings();
@@ -79,6 +75,17 @@ $(document).ready(function() {
     /*  =========== Scroll ============*/
     $(window).scroll(function() {
         var ww=$(window).width();
+
+
+            if ($(window).scrollTop() > $('#price').offset().top) {
+                $('header').css('position', 'fixed');
+                $('.navMenu').css({
+                    'background': '#fffcff', 'box-shadow': '0px 4px 8px -4px rgba(129, 57, 100, 0.55)',
+                    'animation': 'top-header 2s'});
+            } else {
+                $('header').css('position', 'absolute');
+                $('.navMenu').css({'background': 'transparent', 'box-shadow': 'none'});
+            }
 
 
     });

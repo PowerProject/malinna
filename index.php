@@ -34,8 +34,8 @@
     };
 settings();
     </script>
-    <header class="clearfix" id="main">
-        <div class="col-md-6 col-sm-12 col-xs-12 padding"></div>
+    <header class="clearfix padding" id="main">
+        <div class="col-md-6 hidden-sm hidden-xs up padding"></div>
         <div class="col-md-6 col-sm-12 col-xs-12 padding">
             <div class="text-center navMenu">
                 <div class="icon-menu">
@@ -44,16 +44,12 @@ settings();
                     <span class="divide"></span>
                 </div>
                 <div class="overlay-sidebar" data-dismiss="overlay-sidebar"></div>
-
-                    <ul class="sidebar">
-                        <li class="active"><a href="#main">Главная</a></li>
-                        <li><a href="#price">Прайс</a></li>
-                        <li><a href="#portfolio">Портфолио</a></li>
-                        <li><a href="#contacts">Контакты</a></li>
-                    </ul>
-
-
-
+                <ul class="sidebar">
+                    <li><a  class="active" href="#main">Главная</a></li>
+                    <li><a href="#price">Прайс</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
             </div>
         </div>
 
