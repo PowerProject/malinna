@@ -202,6 +202,7 @@ header {
     width: 50%;
     z-index: 10;
     @media (max-width: 991px) {
+      animation: none;
       position: absolute;
       width: 100%;
       z-index: 1;
@@ -253,6 +254,9 @@ header {
             animation: scale 25s;
             -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
+            @media (max-width: 991px) {
+              animation: none;
+            }
           }
         }
         .item.active {
@@ -280,6 +284,9 @@ header {
           animation: animation-slide-left 1s 2.5s;
           -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
+          @media (max-width: 991px) {
+            animation: none;
+          }
           p {
             font: 1rem $font-LatoL;
             line-height:1.8rem;
@@ -878,5 +885,8 @@ a.fancybox-next, a.fancybox-prev {
 
 .fancybox-lock {
   overflow: auto !important; }
+.gm-style img {
+  padding: 10px 10px 0 0;
+}
 
 

@@ -45,7 +45,7 @@ settings();
                 </div>
                 <div class="overlay-sidebar" data-dismiss="overlay-sidebar"></div>
                 <ul class="sidebar">
-                    <li><a  class="active" href="#main">Главная</a></li>
+                    <li><a  class="active" href="#page">Главная</a></li>
                     <li><a href="#price">Прайс</a></li>
                     <li><a href="#portfolio">Портфолио</a></li>
                     <li><a href="#contacts">Контакты</a></li>
@@ -54,7 +54,7 @@ settings();
         </div>
 
     </header>
-    <div class="page-container">
+    <div class="page-container" id="page">
         <div class="left-side col-md-6 padding clearfix">
                  <div class="overlay-panel">
                 <img src="img/malinna_logo.png" alt="logo" class=" col-lg-4 col-md-5 col-sm-4 col-xs-5 img-responsive">
@@ -630,6 +630,9 @@ settings();
                     '<div id="bodyContent">'+
                     '<p> ЖК "София"<br> ' +
                     'ул. Л. Украинки,6' +
+                    '<p><a class="fancybox fancybox1" rel="group1" href="img/map2.jpg"><img src="img/map2-small.jpg" alt="map2"></a>'+
+                    '<a class="fancybox fancybox1" rel="group1" href="img/map3.jpg"><img src="img/map3-small.jpg" alt="map3"></a>'+
+                    '<a class="fancybox fancybox1" rel="group1" href="img/map4.jpg"><img src="img/map4-small.jpg" alt="map4"></a></p>'+
                     '</div>'+
                     '</div>';
 
