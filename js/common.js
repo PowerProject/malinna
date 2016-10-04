@@ -97,7 +97,7 @@ $(document).ready(function() {
         var ww=$(window).width();
 
 
-            if ($(window).scrollTop() > $('#price').offset().top-500) {
+            if ($(window).scrollTop() > $('#price').offset().top-50) {
                 $('header').css('position', 'fixed');
                 $('.navMenu').css({
                     'background': '#fffcff', 'box-shadow': '0px 4px 8px -4px rgba(129, 57, 100, 0.55)',

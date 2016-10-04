@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3dc2b416-d2a6-4756-954c-c42b397fc1db" name="Default" comment="">
+    <list default="true" id="3dc2b416-d2a6-4756-954c-c42b397fc1db" name="Default" comment="offset top -45, and scroll function -50">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inna2_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inna4_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/map2-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/map2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/map3-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/map3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/map4-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/map4.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common.js" afterPath="$PROJECT_DIR$/js/common.js" />
@@ -24,14 +32,14 @@
     <favorites_list name="malinna" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.49936467">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="248">
-                  <caret line="477" column="24" selection-start-line="477" selection-start-column="24" selection-end-line="477" selection-end-column="24" />
+                <state relative-caret-position="589">
+                  <caret line="75" column="42" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
                   <folding />
                 </state>
               </provider>
@@ -74,7 +82,7 @@
           <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/common.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1176">
+                <state relative-caret-position="564">
                   <caret line="99" column="66" selection-start-line="99" selection-start-column="66" selection-end-line="99" selection-end-column="66" />
                   <folding />
                 </state>
@@ -341,7 +349,7 @@
       <workItem from="1475166982979" duration="6940000" />
       <workItem from="1475214211443" duration="8000" />
       <workItem from="1475214456100" duration="7571000" />
-      <workItem from="1475558629676" duration="850000" />
+      <workItem from="1475558629676" duration="1306000" />
     </task>
     <task id="LOCAL-00001" summary="add fonts, create file variables.css, add some img, write text to preloader">
       <created>1473945767323</created>
@@ -595,11 +603,18 @@
       <option name="project" value="LOCAL" />
       <updated>1475216828569</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="offset top -45, and scroll function -50">
+      <created>1475559513717</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1475559513717</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145139000" />
+    <option name="totallyTimeSpent" value="145595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -636,7 +651,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add services and cost and hr&#10;" />
     <MESSAGE value="remade section price into two columns, add raspberries to hr&#10;" />
     <MESSAGE value="create section portfolio, add bg" />
     <MESSAGE value="create gallery" />
@@ -661,7 +675,8 @@
     <MESSAGE value="fancybox: overflow auto, vertical align for enroll button, add href: vk.vom&#10;" />
     <MESSAGE value="header position fixed, change hamburger, add box-shadow&#10;" />
     <MESSAGE value="button main now goes to the link, delete animation om small devices" />
-    <option name="LAST_COMMIT_MESSAGE" value="button main now goes to the link, delete animation om small devices" />
+    <MESSAGE value="offset top -45, and scroll function -50" />
+    <option name="LAST_COMMIT_MESSAGE" value="offset top -45, and scroll function -50" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -969,15 +984,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="477" column="24" selection-start-line="477" selection-start-column="24" selection-end-line="477" selection-end-column="24" />
+        <state relative-caret-position="589">
+          <caret line="75" column="42" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
+        <state relative-caret-position="564">
           <caret line="99" column="66" selection-start-line="99" selection-start-column="66" selection-end-line="99" selection-end-column="66" />
           <folding />
         </state>

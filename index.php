@@ -68,13 +68,13 @@ settings();
                             <img src="img/inna1_1.jpg" alt="inna1">
                         </div>
                         <div class="item">
-                            <img src="img/inna2.jpg" alt="inna2">
+                            <img src="img/inna2_2.jpg" alt="inna2">
                         </div>
                         <div class="item">
                             <img src="img/inna3_3.jpg" alt="inna3">
                         </div>
                         <div class="item">
-                            <img src="img/inna4.jpg" alt="inna4">
+                            <img src="img/inna4_4.jpg" alt="inna4">
                         </div>
 
                     </div>
