@@ -41,8 +41,11 @@ $(document).ready(function() {
 
     $('.navMenu ul a').click( function(){
         var scroll_el = $(this).attr('href');
-        if ($(scroll_el).length != 0) {
-            $('html, body').animate({ scrollTop: $(scroll_el).offset().top-45 }, 500);
+        var ww=$(window).width();
+        if ($(scroll_el).length != 0 && ww>991) {
+                $('html, body').animate({ scrollTop: $(scroll_el).offset().top-45 }, 500);
+        } else {
+            $('html, body').animate({ scrollTop: $(scroll_el).offset().top}, 500);
         }
         return false;
     });

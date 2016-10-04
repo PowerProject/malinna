@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3dc2b416-d2a6-4756-954c-c42b397fc1db" name="Default" comment="offset top -45, and scroll function -50">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inna2_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/inna4_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/map2-small.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/map2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/map3-small.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/map3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/map4-small.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/map4.jpg" />
+    <list default="true" id="3dc2b416-d2a6-4756-954c-c42b397fc1db" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common.js" afterPath="$PROJECT_DIR$/js/common.js" />
     </list>
     <ignored path="malinna.iws" />
@@ -38,7 +29,7 @@
           <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="589">
+                <state relative-caret-position="640">
                   <caret line="75" column="42" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
                   <folding />
                 </state>
@@ -82,8 +73,8 @@
           <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/common.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="564">
-                  <caret line="99" column="66" selection-start-line="99" selection-start-column="66" selection-end-line="99" selection-end-column="66" />
+                <state relative-caret-position="238">
+                  <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -349,7 +340,7 @@
       <workItem from="1475166982979" duration="6940000" />
       <workItem from="1475214211443" duration="8000" />
       <workItem from="1475214456100" duration="7571000" />
-      <workItem from="1475558629676" duration="1306000" />
+      <workItem from="1475558629676" duration="2004000" />
     </task>
     <task id="LOCAL-00001" summary="add fonts, create file variables.css, add some img, write text to preloader">
       <created>1473945767323</created>
@@ -610,11 +601,18 @@
       <option name="project" value="LOCAL" />
       <updated>1475559513717</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="crop images malinna">
+      <created>1475559957761</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1475559957761</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145595000" />
+    <option name="totallyTimeSpent" value="146293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -651,7 +649,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="remade section price into two columns, add raspberries to hr&#10;" />
     <MESSAGE value="create section portfolio, add bg" />
     <MESSAGE value="create gallery" />
     <MESSAGE value="create section contacts, create footer" />
@@ -676,7 +673,8 @@
     <MESSAGE value="header position fixed, change hamburger, add box-shadow&#10;" />
     <MESSAGE value="button main now goes to the link, delete animation om small devices" />
     <MESSAGE value="offset top -45, and scroll function -50" />
-    <option name="LAST_COMMIT_MESSAGE" value="offset top -45, and scroll function -50" />
+    <MESSAGE value="crop images malinna" />
+    <option name="LAST_COMMIT_MESSAGE" value="crop images malinna" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -984,7 +982,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
+        <state relative-caret-position="640">
           <caret line="75" column="42" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
           <folding />
         </state>
@@ -992,8 +990,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="99" column="66" selection-start-line="99" selection-start-column="66" selection-end-line="99" selection-end-column="66" />
+        <state relative-caret-position="238">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
           <folding />
         </state>
       </provider>
