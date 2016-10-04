@@ -477,6 +477,10 @@ settings();
                     <h2>Contacts</h2>
                     <hr>
                     <div id="map"></div>
+                     <div class="text-center enroll hidden-lg hidden-md">
+                         <p><a class="fancy" rel="group2" href="javascript:;">
+                         Подробнее</a></p>
+                      </div>
                     <div class="rowContacts clearfix">
                         <div class="col-md-6 adress text-center">
                             <p class="title-contact">Наш адрес:</p>
@@ -522,7 +526,7 @@ settings();
     <div id="myModal1" class="modal fade" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content text-center">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="img/close.png" alt=""></button>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><img src="img/close.png" alt="close"></button>
                 <h4 class="modal-title">Заказать услугу</h4>
                 <form role="form" id="question-form" method="post" action="send.php">
                     <div class="form-group">
@@ -647,9 +651,20 @@ settings();
                 title: 'Malinna',
                 icon: image
             });
-            marker.addListener('click', function() {
-                infowindow.open(map, marker);
-            });
+            var ww=$(window).width();
+            if (ww>991) {
+               infowindow.open(map, marker);
+               marker.addListener('click', function() {
+                  infowindow.open(map, marker);
+                });
+            } else {
+                infowindow.close();
+            }
+
+
+
+
+
         }
     </script>
     <script async defer

@@ -42,7 +42,7 @@ $(document).ready(function() {
     $('.navMenu ul a').click( function(){
         var scroll_el = $(this).attr('href');
         if ($(scroll_el).length != 0) {
-            $('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 500);
+            $('html, body').animate({ scrollTop: $(scroll_el).offset().top-45 }, 500);
         }
         return false;
     });
@@ -62,8 +62,28 @@ $(document).ready(function() {
         nextEffect: 'fade',
         prevEffect: 'fade',
         padding: 0
-
     });
+
+    $('.fancy').on('click', function (){
+        $.fancybox.open([
+            {
+                href : '../img/map2.jpg',
+
+            }, {
+                href : '../img/map3.jpg',
+
+            }, {
+                href : '../img/map4.jpg'
+            }
+        ], {
+            padding: 0,
+            'transitionIn': 'none',
+            'transitionOut': 'none',
+            'type': 'image',
+            'changeFade': 0
+        });
+    });
+
 
 
     /*  =========== Resize ============*/
@@ -77,7 +97,7 @@ $(document).ready(function() {
         var ww=$(window).width();
 
 
-            if ($(window).scrollTop() > $('#price').offset().top) {
+            if ($(window).scrollTop() > $('#price').offset().top-500) {
                 $('header').css('position', 'fixed');
                 $('.navMenu').css({
                     'background': '#fffcff', 'box-shadow': '0px 4px 8px -4px rgba(129, 57, 100, 0.55)',
