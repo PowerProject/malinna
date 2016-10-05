@@ -45,16 +45,16 @@ settings();
                 </div>
                 <div class="overlay-sidebar" data-dismiss="overlay-sidebar"></div>
                 <ul class="sidebar">
-                    <li><a  class="active" href="#page">Главная</a></li>
-                    <li><a href="#price">Прайс</a></li>
-                    <li><a href="#portfolio">Портфолио</a></li>
-                    <li><a href="#contacts">Контакты</a></li>
+                    <li><a  class="page active" href="#page">Главная</a></li>
+                    <li><a class="price" href="#price">Прайс</a></li>
+                    <li><a class="portfolio" href="#portfolio">Портфолио</a></li>
+                    <li><a class="contacts" href="#contacts">Контакты</a></li>
                 </ul>
             </div>
         </div>
 
     </header>
-    <div class="page-container" id="page">
+    <div class="page-container div" id="page">
         <div class="left-side col-md-6 padding clearfix">
                  <div class="overlay-panel">
                 <img src="img/malinna_logo.png" alt="logo" class=" col-lg-4 col-md-5 col-sm-4 col-xs-5 img-responsive">
@@ -84,7 +84,7 @@ settings();
 
         <!-- -------------- Right Side ------------------>
         <div class="col-md-6 padding clearfix right-side">
-            <section class="full-height">
+            <section class="full-height div">
 
                 <div class="head">
                     <div class="content head-content">
@@ -104,7 +104,7 @@ settings();
             </section>
 
             <!-- ------------------Price---------------->
-            <section class="price clearfix" id="price">
+            <section class="price clearfix div" id="price">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
                     <h2 class="text-center">Price</h2>
@@ -196,7 +196,7 @@ settings();
             </section>
 
             <!-- --------------------Portfolio--------------->
-            <section class="portfolio clearfix" id="portfolio">
+            <section class="portfolio clearfix div" id="portfolio">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
                     <h2 class="text-center">Portfolio</h2>
@@ -471,7 +471,7 @@ settings();
             </section>
 
             <!-- -----------Contacts ----------->
-            <section class="contacts clearfix" id="contacts">
+            <section class="contacts clearfix div" id="contacts">
                 <div class="col-md-1"></div>
                 <div class="col-md-10">
                     <h2>Contacts</h2>
