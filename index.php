@@ -88,7 +88,7 @@ settings();
 
                 <div class="head">
                     <div class="content head-content">
-                        <h1 class="heading-large">Малинна</h1>
+                        <h1 class="heading-large">Мал<span>и</span>нна</h1>
                         <p id="head-description">
 							Ваш маникюр со вкусом!
                         </p>
@@ -142,7 +142,7 @@ settings();
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12 padding column" id="item-6">
                             <h3>Снятие гель-лака</h3>
-                            <p>Снятие покрытия с ногтевой пластины по средствам профессиональной жидкости</p>
+                            <p>Снятие покрытия с ногтевой пластины посредством профессиональной жидкости</p>
                             <p class="cost"> 20 грн</p>
                         </div>
                     </div>

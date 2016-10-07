@@ -232,25 +232,17 @@ header .navMenu ul a.active {
     display: none;
   }
 }
-/*
-@media (min-width: 768px) and (max-width: 991px) {
-  header .navMenu ul li a {
-    color: $white;
-    font-family: $font-LatoB;
-  }
-}
-*/
 @media (max-width: 991px) {
-  /* line 173, ../sass/all.scss */
+  /* line 166, ../sass/all.scss */
   .head h1 {
     color: #fff;
   }
-  /* line 176, ../sass/all.scss */
+  /* line 169, ../sass/all.scss */
   .head p#head-description {
     color: #fff;
     font-family: "LatoRegular";
   }
-  /* line 181, ../sass/all.scss */
+  /* line 174, ../sass/all.scss */
   .head .enroll a#enroll {
     border: 2px solid #f50057;
     border-radius: 0;
@@ -264,17 +256,17 @@ header .navMenu ul a.active {
   }
 }
 @media (max-width: 430px) {
-  /* line 189, ../sass/all.scss */
+  /* line 182, ../sass/all.scss */
   .head .content {
     top: 24% !important;
   }
 }
 /* End media */
-/* line 198, ../sass/all.scss */
+/* line 191, ../sass/all.scss */
 .page-container {
   backface-visibility: hidden;
 }
-/* line 200, ../sass/all.scss */
+/* line 193, ../sass/all.scss */
 .page-container .left-side {
   animation: animation-slide-right 1s 2.5s;
   position: fixed;
@@ -283,7 +275,7 @@ header .navMenu ul a.active {
   /*------------SlideShow-------------*/
 }
 @media (max-width: 991px) {
-  /* line 200, ../sass/all.scss */
+  /* line 193, ../sass/all.scss */
   .page-container .left-side {
     animation: none;
     position: absolute;
@@ -291,7 +283,7 @@ header .navMenu ul a.active {
     z-index: 1;
   }
 }
-/* line 211, ../sass/all.scss */
+/* line 204, ../sass/all.scss */
 .page-container .left-side .overlay-panel {
   position: absolute;
   top: 0;
@@ -301,7 +293,7 @@ header .navMenu ul a.active {
   padding: 20px;
   z-index: 999999;
 }
-/* line 219, ../sass/all.scss */
+/* line 212, ../sass/all.scss */
 .page-container .left-side .overlay-panel::after {
   position: absolute;
   top: 0;
@@ -314,17 +306,17 @@ header .navMenu ul a.active {
   box-shadow: -9px 0px 9px #FFFCFF inset;
 }
 @media (max-width: 991px) {
-  /* line 219, ../sass/all.scss */
+  /* line 212, ../sass/all.scss */
   .page-container .left-side .overlay-panel::after {
     box-shadow: none;
   }
 }
-/* line 233, ../sass/all.scss */
+/* line 226, ../sass/all.scss */
 .page-container .left-side .overlay-panel img {
   position: absolute;
   z-index: 1;
 }
-/* line 242, ../sass/all.scss */
+/* line 235, ../sass/all.scss */
 .page-container .left-side .slideshow .carousel-inner .item {
   -webkit-transition: 3s cubic-bezier(0.55, 0.09, 0.68, 0.53) right;
   -moz-transition: 3s cubic-bezier(0.55, 0.09, 0.68, 0.53) right;
@@ -334,7 +326,7 @@ header .navMenu ul a.active {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-/* line 250, ../sass/all.scss */
+/* line 243, ../sass/all.scss */
 .page-container .left-side .slideshow .carousel-inner .item img {
   object-fit: cover;
   object-position: inherit;
@@ -345,16 +337,16 @@ header .navMenu ul a.active {
   animation-fill-mode: both;
 }
 @media (max-width: 991px) {
-  /* line 250, ../sass/all.scss */
+  /* line 243, ../sass/all.scss */
   .page-container .left-side .slideshow .carousel-inner .item img {
     animation: none;
   }
 }
-/* line 267, ../sass/all.scss */
+/* line 260, ../sass/all.scss */
 .page-container .left-side .slideshow .carousel-inner .item.active {
   overflow: hidden;
 }
-/* line 273, ../sass/all.scss */
+/* line 266, ../sass/all.scss */
 .page-container .right-side {
   background: #fffcff;
   float: right;
@@ -365,76 +357,84 @@ header .navMenu ul a.active {
   /* ------------Footer-----------*/
 }
 @media (max-width: 991px) {
-  /* line 273, ../sass/all.scss */
+  /* line 266, ../sass/all.scss */
   .page-container .right-side {
     width: 100%;
   }
 }
-/* line 280, ../sass/all.scss */
+/* line 273, ../sass/all.scss */
 .page-container .right-side section.full-height {
   position: relative;
   height: 100vh;
   z-index: 2;
 }
-/* line 285, ../sass/all.scss */
+/* line 278, ../sass/all.scss */
 .page-container .right-side section.full-height .head .content {
   top: 32%;
 }
-/* line 288, ../sass/all.scss */
+/* line 281, ../sass/all.scss */
 .page-container .right-side section.full-height .head .head-content, .page-container .right-side section.full-height .head .scroll {
   animation: animation-slide-left 1s 2.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 @media (max-width: 991px) {
-  /* line 288, ../sass/all.scss */
+  /* line 281, ../sass/all.scss */
   .page-container .right-side section.full-height .head .head-content, .page-container .right-side section.full-height .head .scroll {
     animation: none;
   }
 }
-/* line 295, ../sass/all.scss */
+/* line 288, ../sass/all.scss */
+.page-container .right-side section.full-height .head .head-content h1, .page-container .right-side section.full-height .head .scroll h1 {
+  font: 3.5rem "LatoLightItalic" !important;
+}
+/* line 290, ../sass/all.scss */
+.page-container .right-side section.full-height .head .head-content h1 span, .page-container .right-side section.full-height .head .scroll h1 span {
+  color: #f50057;
+}
+/* line 294, ../sass/all.scss */
 .page-container .right-side section.full-height .head .head-content p, .page-container .right-side section.full-height .head .scroll p {
-  font: 1rem "LatoLight";
-  line-height: 1.8rem;
+  font: 1.5rem "LatoLightItalic";
+  line-height: 2.8rem;
   color: rgba(90, 90, 90, 0.9);
 }
-/* line 301, ../sass/all.scss */
+/* line 300, ../sass/all.scss */
 .page-container .right-side section.full-height .head #head-description {
   width: 65%;
   margin: 0 auto;
 }
 @media all and (orientation: landscape) {
-  /* line 301, ../sass/all.scss */
+  /* line 300, ../sass/all.scss */
   .page-container .right-side section.full-height .head #head-description {
     width: 100%;
   }
 }
-/* line 309, ../sass/all.scss */
+/* line 308, ../sass/all.scss */
 .page-container .right-side section.full-height .head .scroll {
   position: absolute;
   width: 100%;
   bottom: 3%;
 }
-/* line 314, ../sass/all.scss */
+/* line 313, ../sass/all.scss */
 .page-container .right-side section.full-height .head .scroll img.gif {
   width: 65px;
   opacity: 0.8;
 }
-/* line 318, ../sass/all.scss */
+/* line 317, ../sass/all.scss */
 .page-container .right-side section.full-height .head .scroll p {
   font: 10px "LatoRegular";
   text-transform: uppercase;
 }
-/* line 328, ../sass/all.scss */
+/* line 327, ../sass/all.scss */
 .page-container .right-side section.price {
   position: relative;
   padding-top: 5%;
 }
-/* line 331, ../sass/all.scss */
+/* line 330, ../sass/all.scss */
 .page-container .right-side section.price .rowPrices {
   padding-top: 5%;
 }
-/* line 334, ../sass/all.scss */
+/* line 333, ../sass/all.scss */
 .page-container .right-side section.price .rowPrices .column h3 {
   position: relative;
   padding-bottom: 10px;
@@ -442,7 +442,7 @@ header .navMenu ul a.active {
   color: #424242;
   font-weight: 300;
 }
-/* line 340, ../sass/all.scss */
+/* line 339, ../sass/all.scss */
 .page-container .right-side section.price .rowPrices .column h3:after {
   content: '';
   position: absolute;
@@ -452,19 +452,19 @@ header .navMenu ul a.active {
   height: 2px;
   background: #f50057;
 }
-/* line 350, ../sass/all.scss */
+/* line 349, ../sass/all.scss */
 .page-container .right-side section.price .rowPrices .column p {
   font: 1rem "LatoLight";
   line-height: 1.6rem;
   color: rgba(90, 90, 90, 0.9);
   padding-top: 10px;
 }
-/* line 356, ../sass/all.scss */
+/* line 355, ../sass/all.scss */
 .page-container .right-side section.price .rowPrices .column p.cost {
   font: 1rem "LatoBoldItalic";
   color: #f50057;
 }
-/* line 362, ../sass/all.scss */
+/* line 361, ../sass/all.scss */
 .page-container .right-side section.price .rowPrices .column#item-3:after, .page-container .right-side section.price .rowPrices .column#item-6:after, .page-container .right-side section.price .rowPrices .column#item-9:after {
   position: absolute;
   top: 20%;
@@ -477,31 +477,31 @@ header .navMenu ul a.active {
   font-style: normal;
   content: 'Hi';
 }
-/* line 374, ../sass/all.scss */
+/* line 373, ../sass/all.scss */
 .page-container .right-side section.price .rowPrices .column.text-center h3:after {
   left: 48%;
 }
-/* line 377, ../sass/all.scss */
+/* line 376, ../sass/all.scss */
 .page-container .right-side section.price .rowPrices .float-left {
   float: left;
 }
-/* line 380, ../sass/all.scss */
+/* line 379, ../sass/all.scss */
 .page-container .right-side section.price .rowPrices .float-right {
   float: right;
 }
-/* line 387, ../sass/all.scss */
+/* line 386, ../sass/all.scss */
 .page-container .right-side h2 {
   font: 2rem "LatoRegular";
   text-align: center;
 }
-/* line 391, ../sass/all.scss */
+/* line 390, ../sass/all.scss */
 .page-container .right-side hr {
   background: #f50057;
   width: 40%;
   height: 1px;
   position: relative;
 }
-/* line 396, ../sass/all.scss */
+/* line 395, ../sass/all.scss */
 .page-container .right-side hr:after {
   content: '';
   background: url("../img/raspberries-small.png") no-repeat center center;
@@ -510,16 +510,16 @@ header .navMenu ul a.active {
   height: 30px;
   bottom: -12px;
 }
-/* line 405, ../sass/all.scss */
+/* line 404, ../sass/all.scss */
 .page-container .right-side hr.end-hr {
   margin-top: 40px;
 }
-/* line 408, ../sass/all.scss */
+/* line 407, ../sass/all.scss */
 .page-container .right-side .enroll {
   padding-top: 6%;
   padding-bottom: 3%;
 }
-/* line 411, ../sass/all.scss */
+/* line 410, ../sass/all.scss */
 .page-container .right-side .enroll a {
   border: 2px solid #f50057;
   border-radius: 0;
@@ -531,7 +531,7 @@ header .navMenu ul a.active {
   font: 15px 'LatoBoldItalic', sans-serif;
   cursor: pointer;
 }
-/* line 413, ../sass/all.scss */
+/* line 412, ../sass/all.scss */
 .page-container .right-side .enroll a:hover {
   border: 2px solid #f50057;
   border-radius: 0;
@@ -544,51 +544,51 @@ header .navMenu ul a.active {
   cursor: pointer;
 }
 @media (max-width: 991px) {
-  /* line 421, ../sass/all.scss */
+  /* line 420, ../sass/all.scss */
   .page-container .right-side .rowPrices div {
     text-align: center !important;
   }
-  /* line 424, ../sass/all.scss */
+  /* line 423, ../sass/all.scss */
   .page-container .right-side .rowPrices h3:after {
     left: 47% !important;
   }
 }
 @media (max-width: 767px) {
-  /* line 431, ../sass/all.scss */
+  /* line 430, ../sass/all.scss */
   .page-container .right-side .rowPrices {
     padding-top: 0 !important;
   }
-  /* line 433, ../sass/all.scss */
+  /* line 432, ../sass/all.scss */
   .page-container .right-side .rowPrices .col-xs-12 {
     padding-top: 25px !important;
   }
 }
 @media (max-width: 430px) {
-  /* line 442, ../sass/all.scss */
+  /* line 441, ../sass/all.scss */
   .page-container .right-side section.price div.enroll {
     padding-top: 10% !important;
     padding-bottom: 5% !important;
   }
 }
-/* line 451, ../sass/all.scss */
+/* line 450, ../sass/all.scss */
 .page-container .right-side section.portfolio {
   position: relative;
   padding-top: 5%;
 }
-/* line 454, ../sass/all.scss */
+/* line 453, ../sass/all.scss */
 .page-container .right-side section.portfolio .nav-pills > li.active > a, .page-container .right-side section.portfolio .nav-pills > li.active > a:focus, .page-container .right-side section.portfolio .nav-pills > li.active > a:hover {
   background: transparent !important;
   color: #212121;
 }
-/* line 458, ../sass/all.scss */
+/* line 457, ../sass/all.scss */
 .page-container .right-side section.portfolio ul {
   display: inline-block;
 }
-/* line 462, ../sass/all.scss */
+/* line 461, ../sass/all.scss */
 .page-container .right-side section.portfolio ul li a:hover {
   background: transparent;
 }
-/* line 465, ../sass/all.scss */
+/* line 464, ../sass/all.scss */
 .page-container .right-side section.portfolio ul li a:hover:after {
   content: "";
   display: block;
@@ -602,18 +602,18 @@ header .navMenu ul a.active {
   -webkit-transition: width .3s, margin .3s;
   transition: width .3s, margin .3s;
 }
-/* line 478, ../sass/all.scss */
+/* line 477, ../sass/all.scss */
 .page-container .right-side section.portfolio ul li a:focus {
   background: transparent;
   outline: none;
 }
-/* line 482, ../sass/all.scss */
+/* line 481, ../sass/all.scss */
 .page-container .right-side section.portfolio ul li a {
   color: #212121;
   font: 16px "LatoLightItalic";
   font-weight: 600;
 }
-/* line 486, ../sass/all.scss */
+/* line 485, ../sass/all.scss */
 .page-container .right-side section.portfolio ul li a:after {
   content: "";
   display: block;
@@ -626,7 +626,7 @@ header .navMenu ul a.active {
   -webkit-transition: width .3s, margin .3s;
   transition: width .3s, margin .3s;
 }
-/* line 500, ../sass/all.scss */
+/* line 499, ../sass/all.scss */
 .page-container .right-side section.portfolio ul li.active a:after {
   content: "";
   display: block;
@@ -640,103 +640,103 @@ header .navMenu ul a.active {
   -webkit-transition: width .3s, margin .3s;
   transition: width .3s, margin .3s;
 }
-/* line 514, ../sass/all.scss */
+/* line 513, ../sass/all.scss */
 .page-container .right-side section.portfolio .tab-content {
   padding-top: 4%;
 }
-/* line 517, ../sass/all.scss */
+/* line 516, ../sass/all.scss */
 .page-container .right-side section.portfolio .tab-content .col-md-4 {
   padding: 10px 5px 0 5px;
 }
-/* line 519, ../sass/all.scss */
+/* line 518, ../sass/all.scss */
 .page-container .right-side section.portfolio .tab-content .col-md-4 .overflow {
   overflow: hidden;
 }
-/* line 523, ../sass/all.scss */
+/* line 522, ../sass/all.scss */
 .page-container .right-side section.portfolio .tab-content .col-md-4 a img {
   width: 100%;
   transition: all 0.5s;
 }
-/* line 526, ../sass/all.scss */
+/* line 525, ../sass/all.scss */
 .page-container .right-side section.portfolio .tab-content .col-md-4 a img:hover {
   transform: scale(1.1);
   opacity: 0.8;
 }
-/* line 535, ../sass/all.scss */
+/* line 534, ../sass/all.scss */
 .page-container .right-side .fancybox-lock .fancybox-overlay {
   overflow: hidden !important;
 }
 @media (min-width: 992px) and (max-width: 1050px) {
-  /* line 541, ../sass/all.scss */
+  /* line 540, ../sass/all.scss */
   .page-container .right-side .nav-pills li:last-child {
     float: none;
   }
 }
 @media (max-width: 430px) {
-  /* line 551, ../sass/all.scss */
+  /* line 550, ../sass/all.scss */
   .page-container .right-side section.portfolio .nav-pills a {
     font-size: 14px;
     padding: 10px 5px;
   }
 }
-/* line 561, ../sass/all.scss */
+/* line 560, ../sass/all.scss */
 .page-container .right-side section.contacts {
   position: relative;
   padding-top: 4%;
 }
-/* line 564, ../sass/all.scss */
+/* line 563, ../sass/all.scss */
 .page-container .right-side section.contacts #map {
   height: 360px;
   margin-top: 5%;
   box-shadow: 0 0 3px rgba(245, 0, 87, 0.65);
 }
-/* line 569, ../sass/all.scss */
+/* line 568, ../sass/all.scss */
 .page-container .right-side section.contacts .rowContacts {
   position: relative;
   padding-top: 4%;
 }
-/* line 572, ../sass/all.scss */
+/* line 571, ../sass/all.scss */
 .page-container .right-side section.contacts .rowContacts p {
   font: 1rem "LatoLight";
   line-height: 1.6rem;
   color: rgba(90, 90, 90, 0.9);
 }
-/* line 577, ../sass/all.scss */
+/* line 576, ../sass/all.scss */
 .page-container .right-side section.contacts .rowContacts p.title-contact {
   font: 1.2rem/3rem "LatoItalic";
   font-weight: 300;
   color: #f50057;
 }
-/* line 582, ../sass/all.scss */
+/* line 581, ../sass/all.scss */
 .page-container .right-side section.contacts .rowContacts a {
   display: inline-block;
   margin-top: 15px;
 }
-/* line 586, ../sass/all.scss */
+/* line 585, ../sass/all.scss */
 .page-container .right-side section.contacts .rowContacts #sprite {
   width: 32px;
   height: 20px;
   background: url("../img/sprite-vk.png") no-repeat top;
 }
-/* line 590, ../sass/all.scss */
+/* line 589, ../sass/all.scss */
 .page-container .right-side section.contacts .rowContacts #sprite:hover {
   background-position: bottom;
 }
-/* line 595, ../sass/all.scss */
+/* line 594, ../sass/all.scss */
 .page-container .right-side section.contacts .col-md-10 {
   padding-bottom: 7%;
   border-bottom: 1px solid rgba(245, 0, 87, 0.19);
 }
-/* line 602, ../sass/all.scss */
+/* line 601, ../sass/all.scss */
 .page-container .right-side footer {
   padding-top: 6%;
   padding-bottom: 5%;
 }
-/* line 605, ../sass/all.scss */
+/* line 604, ../sass/all.scss */
 .page-container .right-side footer li {
   text-align: center;
 }
-/* line 608, ../sass/all.scss */
+/* line 607, ../sass/all.scss */
 .page-container .right-side footer a {
   font: 12px/26px "LatoRegular";
   color: rgba(90, 90, 90, 0.9);
@@ -744,89 +744,89 @@ header .navMenu ul a.active {
   text-decoration: none;
   letter-spacing: 1px;
 }
-/* line 614, ../sass/all.scss */
+/* line 613, ../sass/all.scss */
 .page-container .right-side footer a:hover {
   color: #f50057;
 }
-/* line 618, ../sass/all.scss */
+/* line 617, ../sass/all.scss */
 .page-container .right-side footer img {
   width: 55%;
   cursor: pointer;
 }
 
-/* line 626, ../sass/all.scss */
+/* line 625, ../sass/all.scss */
 a.fancybox-next, a.fancybox-prev {
   outline: none !important;
 }
 
-/* line 630, ../sass/all.scss */
+/* line 629, ../sass/all.scss */
 #firstHeading {
   font-weight: 900;
 }
 
-/* line 633, ../sass/all.scss */
+/* line 632, ../sass/all.scss */
 #bodyContent {
   overflow: hidden;
 }
 
 /* ------------MODAL------------- */
-/* line 639, ../sass/all.scss */
+/* line 638, ../sass/all.scss */
 .modal .modal-dialog {
   margin-top: 9%;
 }
-/* line 641, ../sass/all.scss */
+/* line 640, ../sass/all.scss */
 .modal .modal-dialog .modal-content {
   border: 1px solid #f50057;
   padding-top: 3%;
   border-radius: 2px;
 }
-/* line 645, ../sass/all.scss */
+/* line 644, ../sass/all.scss */
 .modal .modal-dialog .modal-content button.close {
   padding-right: 15px;
   padding-top: 4px;
 }
-/* line 648, ../sass/all.scss */
+/* line 647, ../sass/all.scss */
 .modal .modal-dialog .modal-content button.close:hover {
   opacity: 1;
 }
-/* line 652, ../sass/all.scss */
+/* line 651, ../sass/all.scss */
 .modal .modal-dialog .modal-content h4 {
   color: #212121;
   font: 1.5rem "LatoLightItalic";
   padding-left: 15px;
   padding-bottom: 15px;
 }
-/* line 658, ../sass/all.scss */
+/* line 657, ../sass/all.scss */
 .modal .modal-dialog .modal-content form {
   margin-bottom: 6%;
 }
-/* line 660, ../sass/all.scss */
+/* line 659, ../sass/all.scss */
 .modal .modal-dialog .modal-content form input[type="text"], .modal .modal-dialog .modal-content form input[type="tel"], .modal .modal-dialog .modal-content form textarea {
   width: 90%;
   margin: 0 auto;
   color: #f50057;
   font: 16px "LatoLight";
 }
-/* line 666, ../sass/all.scss */
+/* line 665, ../sass/all.scss */
 .modal .modal-dialog .modal-content form .rowCheckbox {
   width: 89%;
   margin: 0 auto;
 }
-/* line 670, ../sass/all.scss */
+/* line 669, ../sass/all.scss */
 .modal .modal-dialog .modal-content form .checkbox {
   text-align: left;
 }
-/* line 672, ../sass/all.scss */
+/* line 671, ../sass/all.scss */
 .modal .modal-dialog .modal-content form .checkbox label {
   font: 14px "LatoLight";
   cursor: pointer;
   padding-left: 0;
 }
-/* line 676, ../sass/all.scss */
+/* line 675, ../sass/all.scss */
 .modal .modal-dialog .modal-content form .checkbox label input[type="checkbox"] {
   display: none;
 }
-/* line 679, ../sass/all.scss */
+/* line 678, ../sass/all.scss */
 .modal .modal-dialog .modal-content form .checkbox label input[type="checkbox"] + span {
   margin-right: 8px;
   float: left;
@@ -836,28 +836,28 @@ a.fancybox-next, a.fancybox-prev {
   position: relative;
   background: url("../img/sprite-checkbox.png") no-repeat top;
 }
-/* line 689, ../sass/all.scss */
+/* line 688, ../sass/all.scss */
 .modal .modal-dialog .modal-content form .checkbox label input[type="checkbox"]:checked + span {
   background: url("../img/sprite-checkbox.png") no-repeat bottom;
 }
-/* line 692, ../sass/all.scss */
+/* line 691, ../sass/all.scss */
 .modal .modal-dialog .modal-content form .checkbox label span.price-modal {
   font: 15px "LatoRegular";
   color: #f50057;
   padding-left: 3px;
 }
-/* line 699, ../sass/all.scss */
+/* line 698, ../sass/all.scss */
 .modal .modal-dialog .modal-content form textarea {
   width: 90%;
   margin: 6% auto 0;
   font: 16px "LatoLight";
 }
-/* line 704, ../sass/all.scss */
+/* line 703, ../sass/all.scss */
 .modal .modal-dialog .modal-content form .form-control:focus {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px rgba(0, 0, 0, 0.2);
   border-color: #7a7a7a;
 }
-/* line 709, ../sass/all.scss */
+/* line 708, ../sass/all.scss */
 .modal .modal-dialog .modal-content form button {
   margin-top: 6%;
   border: 2px solid #f50057;
@@ -870,40 +870,40 @@ a.fancybox-next, a.fancybox-prev {
   font: 15px 'LatoBoldItalic', sans-serif;
   cursor: pointer;
 }
-/* line 720, ../sass/all.scss */
+/* line 719, ../sass/all.scss */
 .modal .modal-dialog .modal-content form button:hover {
   background: #f50057;
   color: #fff;
 }
-/* line 726, ../sass/all.scss */
+/* line 725, ../sass/all.scss */
 .modal .modal-dialog .modal-content input::-webkit-input-placeholder {
   font: 16px "LatoLightItalic";
 }
-/* line 727, ../sass/all.scss */
+/* line 726, ../sass/all.scss */
 .modal .modal-dialog .modal-content input::-moz-placeholder {
   font: 16px "LatoLightItalic";
 }
-/* line 728, ../sass/all.scss */
+/* line 727, ../sass/all.scss */
 .modal .modal-dialog .modal-content input:-moz-placeholder {
   font: 16px "LatoLightItalic";
 }
-/* line 729, ../sass/all.scss */
+/* line 728, ../sass/all.scss */
 .modal .modal-dialog .modal-content input:-ms-input-placeholder {
   font: 16px "LatoLightItalic";
 }
-/* line 730, ../sass/all.scss */
+/* line 729, ../sass/all.scss */
 .modal .modal-dialog .modal-content textarea::-webkit-input-placeholder {
   font: 16px "LatoLightItalic";
 }
-/* line 731, ../sass/all.scss */
+/* line 730, ../sass/all.scss */
 .modal .modal-dialog .modal-content textarea::-moz-placeholder {
   font: 16px "LatoLightItalic";
 }
-/* line 732, ../sass/all.scss */
+/* line 731, ../sass/all.scss */
 .modal .modal-dialog .modal-content textarea:-moz-placeholder {
   font: 16px "LatoLightItalic";
 }
-/* line 733, ../sass/all.scss */
+/* line 732, ../sass/all.scss */
 .modal .modal-dialog .modal-content textarea:-ms-input-placeholder {
   font: 16px "LatoLightItalic";
 }
@@ -1003,7 +1003,7 @@ a.fancybox-next, a.fancybox-prev {
   }
 }
 /* =========FlexBox===========*/
-/* line 847, ../sass/all.scss */
+/* line 846, ../sass/all.scss */
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -1011,7 +1011,7 @@ a.fancybox-next, a.fancybox-prev {
   align-items: center;
 }
 
-/* line 854, ../sass/all.scss */
+/* line 853, ../sass/all.scss */
 .flex {
   display: -webkit-box;
   display: -moz-box;
@@ -1020,19 +1020,19 @@ a.fancybox-next, a.fancybox-prev {
   display: flex;
 }
 
-/* line 862, ../sass/all.scss */
+/* line 861, ../sass/all.scss */
 .flex-column {
   -webkit-flex-direction: column;
   flex-direction: column;
 }
 
-/* line 867, ../sass/all.scss */
+/* line 866, ../sass/all.scss */
 .flex-row {
   -webkit-flex-direction: row;
   flex-direction: row;
 }
 
-/* line 873, ../sass/all.scss */
+/* line 872, ../sass/all.scss */
 .flex-center-all {
   -webkit-justify-content: center;
   justify-content: center;
@@ -1040,28 +1040,28 @@ a.fancybox-next, a.fancybox-prev {
 }
 
 /*============ Clearfix=========== */
-/* line 881, ../sass/all.scss */
+/* line 880, ../sass/all.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 885, ../sass/all.scss */
+/* line 884, ../sass/all.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 889, ../sass/all.scss */
+/* line 888, ../sass/all.scss */
 .clrearfix {
   zoom: 1;
 }
 
-/* line 894, ../sass/all.scss */
+/* line 893, ../sass/all.scss */
 .fancybox-lock {
   overflow: auto !important;
 }
 
-/* line 896, ../sass/all.scss */
+/* line 895, ../sass/all.scss */
 .gm-style img {
   padding: 10px 10px 0 0;
 }

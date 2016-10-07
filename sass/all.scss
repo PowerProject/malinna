@@ -159,14 +159,7 @@ header {
   }
 
 }
-/*
-@media (min-width: 768px) and (max-width: 991px) {
-  header .navMenu ul li a {
-    color: $white;
-    font-family: $font-LatoB;
-  }
-}
-*/
+
 
 @media (max-width: 991px) {
   .head {
@@ -292,9 +285,15 @@ header {
           @media (max-width: 991px) {
             animation: none;
           }
+          h1 {
+            font: 3.5rem $font-LatoLI !important;
+            span {
+              color: $crimson;
+            }
+          }
           p {
-            font: 1rem $font-LatoL;
-            line-height:1.8rem;
+            font: 1.5rem $font-LatoLI;
+            line-height:2.8rem;
             color: rgba(90, 90, 90, 0.9);
           }
         }
