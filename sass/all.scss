@@ -176,6 +176,7 @@ header {
     p#head-description {
       color: $white;
       font-family: $font-Lato;
+
     }
      .enroll a#enroll {
       @include button($crimson, $crimson, $white, 0, uppercase);
@@ -250,6 +251,10 @@ header {
             object-fit: cover;
             object-position: inherit;
             height: 100vh !important;
+            @media all and (orientation: landscape) {
+
+            }
+
             width: 100%;
             animation: scale 25s;
             -webkit-animation-fill-mode: both;
@@ -296,6 +301,9 @@ header {
         #head-description {
           width: 65%;
           margin: 0 auto;
+          @media all and (orientation: landscape) {
+            width: 100%;
+          }
 
         }
         .scroll {

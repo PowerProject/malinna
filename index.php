@@ -88,9 +88,10 @@ settings();
 
                 <div class="head">
                     <div class="content head-content">
-                        <h1 class="heading-large">Malinna</h1>
-                        <p id="head-description">Здесь какой-нибудь коротенький текст о студии Малинна. Коротенький- коротенький,
-                        главное чтоб было понятно  и красиво</p>
+                        <h1 class="heading-large">Малинна</h1>
+                        <p id="head-description">
+							Ваш маникюр со вкусом!
+                        </p>
                         <img src="img/raspberries.png" alt="raspberry-clipart">
                         <div class="text-center enroll">
                             <a data-toggle="modal" data-target="#myModal1" id="enroll">Заказать услугу</a>
@@ -129,63 +130,68 @@ settings();
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12 padding column">
                             <h3>Покрытие ногтей гель-лак</h3>
-                            <p>Обрезной маникюр с ванночкой и шлифовкой ногтей</p>
+                            <p>Подготовка ногтевой пластины к нанесению гель-лака и покрытие</p>
                             <p class="cost"> 120 грн</p>
                         </div>
                     </div>
                     <div class="rowPrices clearfix">
                         <div class="col-md-6  col-sm-6 col-xs-12 padding column">
                             <h3>Покрытие ногтей гель-лак френч, лунный</h3>
-                            <p>Необрезной маникюр с ванночкой и шлифовкой ногтей</p>
+                            <p>Подготовка ногтевой пластины к нанесению гель-лака и покрытие в стиле френч</p>
                             <p class="cost"> 140 грн</p>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12 padding column" id="item-6">
                             <h3>Снятие гель-лака</h3>
-                            <p>Обрезной маникюр с ванночкой и шлифовкой ногтей</p>
+                            <p>Снятие покрытия с ногтевой пластины по средствам профессиональной жидкости</p>
                             <p class="cost"> 20 грн</p>
                         </div>
                     </div>
                     <div class="rowPrices clearfix">
                         <div class="col-md-6 col-sm-6 col-xs-12 padding column"  >
                             <h3>Дизайн ногтей (1 ноготь)</h3>
-                            <p>Необрезной маникюр с ванночкой и шлифовкой ногтей</p>
+                            <p>Дизайн, роспись и декорирование ногтей</p>
                             <p class="cost"> 5-20 грн</p>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12 padding column">
-                            <h3>Ремонт ногтя (1 ноготь)</h3>
-                            <p>Обрезной маникюр с ванночкой и шлифовкой ногтей</p>
+                            <h3>Ремонт ногтей (1 ноготь)</h3>
+                            <p>Удаление трещин, надломов и сколов ногтя</p>
                             <p class="cost"> 20 грн</p>
                         </div>
                     </div>
                     <div class="rowPrices clearfix">
                         <div class="col-md-6 col-sm-6 col-xs-12 padding column" id="item-9">
                             <h3>Наращивание ногтей</h3>
-                            <p>Необрезной маникюр с ванночкой и шлифовкой ногтей</p>
+                            <p>Наращивание ногтей на форму (гелевая основа)</p>
                             <p class="cost"> от 300 грн</p>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12 padding column">
                             <h3>Снятие нарощенных ногтей</h3>
-                            <p>Обрезной маникюр с ванночкой и шлифовкой ногтей</p>
+                            <p>Удаление геля с натуральных ногтей</p>
                             <p class="cost"> от 80 грн</p>
                         </div>
                     </div>
                     <div class="rowPrices clearfix">
                         <div class="col-md-6  col-sm-6 col-xs-12 padding column">
                             <h3>Коррекция нарощенных ногтей</h3>
-                            <p>Необрезной маникюр с ванночкой и шлифовкой ногтей</p>
+                            <p>Коррекция нарощенных ногтей (гелевая система)</p>
                             <p class="cost"> от 200 грн</p>
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-12 padding column">
                             <h3>Spa-процедура для рук</h3>
-                            <p>Обрезной маникюр с ванночкой и шлифовкой ногтей</p>
-                            <p class="cost"> 80грн</p>
+                            <p>Spa-уход включает: пиллинг, маску и крем для рук</p>
+                            <p class="cost"> 80 грн</p>
                         </div>
                     </div>
-                    <div class="rowPrices rowPricesLast clearfix">
-                        <div class="padding column text-center">
-                            <h3>Массаж рук (пилинг+крем)</h3>
-                            <p>Необрезной маникюр с ванночкой и шлифовкой ногтей</p>
-                            <p class="cost"> 60грн</p>
+                    <div class="rowPrices clearfix">
+                        <div class="col-md-6  col-sm-6 col-xs-12 padding column">
+                            <h3>Педикюр гигиенический женский</h3>
+                            <p>Обрезной педикюр с ванночкой и полированием подошвы</p>
+                            <p class="cost"> 120 грн</p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 padding column">
+                            <h3>Педикюр гигиенический мужской</h3>
+                            <p>Обрезной педикюр с ванночкой и полированием подошвы</p>
+                            <p class="cost"> 140 грн</p>
                         </div>
                     </div>
                     <div class="text-center enroll">
@@ -602,7 +608,12 @@ settings();
                             </div>
                             <div class="checkbox">
                                 <label>
-                                    <input type="checkbox" name="manicure[]" value="Массаж рук"><span></span> Массаж рук <span class="price-modal"> 60 грн</span>
+                                    <input type="checkbox" name="manicure[]" value="Педикюр гигиенический женский"><span></span> Педикюр  женский <span class="price-modal"> 120 грн</span>
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="manicure[]" value="Педикюр гигиенический мужской"><span></span> Педикюр мужской <span class="price-modal"> 140 грн</span>
                                 </label>
                             </div>
                         </div>
