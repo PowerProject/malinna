@@ -450,9 +450,20 @@ header {
     section.portfolio  {
       position: relative;
       padding-top: 5%;
+      #simple {
+        display: none;
+      }
+      .nav-pills li:nth-child(3) {
+        display: none;
+      }
       .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
         background: transparent !important;
         color: $dark;
+      }
+      .nav > li > a {
+        @media (min-width: 992px) and (max-width: 1200px) {
+          padding: 10px 8px;
+        }
       }
       ul {
         display: inline-block;
