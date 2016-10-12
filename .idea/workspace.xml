@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dc2b416-d2a6-4756-954c-c42b397fc1db" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/66e1ce14890a49f59ba1c79f1bfb4092bc54c850/all.scssc" afterPath="$PROJECT_DIR$/.sass-cache/66e1ce14890a49f59ba1c79f1bfb4092bc54c850/all.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/all.css" afterPath="$PROJECT_DIR$/css/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/all.scss" afterPath="$PROJECT_DIR$/sass/all.scss" />
     </list>
     <ignored path="malinna.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +28,7 @@
           <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2098">
+                <state relative-caret-position="884">
                   <caret line="323" column="57" selection-start-line="323" selection-start-column="57" selection-end-line="323" selection-end-column="57" />
                   <folding />
                 </state>
@@ -348,6 +344,7 @@
       <workItem from="1475663873232" duration="2101000" />
       <workItem from="1475836636558" duration="1452000" />
       <workItem from="1476250042695" duration="3577000" />
+      <workItem from="1476254362811" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="add fonts, create file variables.css, add some img, write text to preloader">
       <created>1473945767323</created>
@@ -647,13 +644,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159598000" />
+    <option name="totallyTimeSpent" value="159615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1934" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17987487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17987487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11205074" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1017,7 +1014,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2098">
+        <state relative-caret-position="884">
           <caret line="323" column="57" selection-start-line="323" selection-start-column="57" selection-end-line="323" selection-end-column="57" />
           <folding />
         </state>
