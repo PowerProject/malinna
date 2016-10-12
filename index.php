@@ -533,8 +533,8 @@ settings();
                 <div class="col-md-3 col-sm-3"></div>
                 <div class="col-md-2 col-sm-2 col-xs-4">
                     <ul>
-                        <li><a href=""> Главная</a></li>
-                        <li><a href=""> Портфолио</a></li>
+                        <li><a href="#page"> Главная</a></li>
+                        <li><a href="#portfolio"> Портфолио</a></li>
                     </ul>
                 </div>
                 <div class="col-md-2 col-sm-2 col-xs-4 text-center">
@@ -542,8 +542,8 @@ settings();
                 </div>
                 <div class="col-md-2 col-sm-2 col-xs-4">
                     <ul>
-                        <li><a href=""> Прайс</a></li>
-                        <li><a href=""> Контакты</a></li>
+                        <li><a href="#price"> Прайс</a></li>
+                        <li><a href="#contacts"> Контакты</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-3"></div>

@@ -39,7 +39,7 @@ $(document).ready(function() {
 
     /* Anchor scroll*/
 
-   $('.navMenu ul a').click( function(){
+   $('.navMenu ul a, footer a').click( function(){
         var scroll_el = $(this).attr('href');
         var ww=$(window).width();
         if ($(scroll_el).length != 0 && ww>991) {
